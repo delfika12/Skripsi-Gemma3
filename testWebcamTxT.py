@@ -4,8 +4,8 @@ import base64
 import requests
 from datetime import datetime
 
-MODEL_NAME = "customGemma3:latest"
-OLLAMA_URL = "http://localhost:11434/api/chat"  # endpoint chat Ollama
+MODEL_NAME = "customGemma3"
+OLLAMA_URL = "http://127.0.0.1:11434/api/chat"  # endpoint chat Ollama
 
 CAPTURE_DIR = os.path.join(os.getcwd(), "captures")
 OUTPUT_DIR = os.path.join(os.getcwd(), "outputs")
