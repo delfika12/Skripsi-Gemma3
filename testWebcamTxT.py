@@ -1,9 +1,12 @@
 import os
 import cv2
+import base64
+import requests
 from datetime import datetime
-from ollama import chat  # tetap pakai ini; parsing tidak diubah (sesuai permintaan)
 
-MODEL_NAME = "customGemma3"
+MODEL_NAME = "customGemma3:latest"
+OLLAMA_URL = "http://localhost:11434/api/chat"  # endpoint chat Ollama
+
 CAPTURE_DIR = os.path.join(os.getcwd(), "captures")
 OUTPUT_DIR = os.path.join(os.getcwd(), "outputs")
 
@@ -11,11 +14,11 @@ os.makedirs(CAPTURE_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def capture_image():
-    # Tetap gunakan kamera index 2 (tanpa warm-up & tanpa set resolusi)
+    # Tetap gunakan kamera index 0 (seperti di kode kamu)
     cap = cv2.VideoCapture(0)
 
     if not cap.isOpened():
-        print("[ERROR] Kamera (index 2) tidak ditemukan atau tidak bisa dibuka.")
+        print("[ERROR] Kamera (index 0) tidak ditemukan atau tidak bisa dibuka.")
         return None
 
     ret, frame = cap.read()
@@ -40,25 +43,47 @@ def run_ollama_with_image(image_path):
         print(f"[ERROR] File gambar tidak ada: {image_path}")
         return None
 
+    # Encode gambar ke base64 (sesuai format multimodal Ollama)
     try:
-        # Kirim gambar ke model (content dikosongkan sesuai kode asli)
-        response = chat(
-            model=MODEL_NAME,
-            messages=[{
+        with open(image_path, "rb") as f:
+            img_b64 = base64.b64encode(f.read()).decode("utf-8")
+    except Exception as e:
+        print(f"[ERROR] Gagal membaca/encode gambar: {e}")
+        return None
+
+    payload = {
+        "model": MODEL_NAME,
+        "messages": [
+            {
                 "role": "user",
-                "content": "",
-                "images": [image_path]
-            }]
-        )
+                "content": "apa yang kamu liat dari gambar ini",
+                "images": [img_b64],
+            }
+        ],
+        "stream": False  # supaya respons langsung sekali, bukan streaming
+    }
+
+    try:
+        resp = requests.post(OLLAMA_URL, json=payload)
+        resp.raise_for_status()
     except Exception as e:
         print(f"[ERROR] Gagal memanggil Ollama. Pastikan `ollama serve` aktif dan model '{MODEL_NAME}' tersedia. Detail: {e}")
         return None
 
-    # NOTE: saran #1 TIDAK diterapkan -> tetap akses seperti kode asli
     try:
-        content = response['message'].content  # sesuai permintaan: tidak diubah
+        data = resp.json()
     except Exception as e:
-        print(f"[ERROR] Struktur respons tak terduga. (Saran #1 tidak diterapkan) Detail: {e}\nRespons mentah: {response}")
+        print(f"[ERROR] Gagal parse JSON dari Ollama: {e}\nRespons mentah: {resp.text}")
+        return None
+
+    # Ambil konten jawaban dari field message.content
+    try:
+        content = data.get("message", {}).get("content", "")
+        if not content:
+            print(f"[ERROR] Konten kosong atau struktur respons tak terduga.\nRespons: {data}")
+            return None
+    except Exception as e:
+        print(f"[ERROR] Struktur respons tak terduga. Detail: {e}\nRespons: {data}")
         return None
 
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
