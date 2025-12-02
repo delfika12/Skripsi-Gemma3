@@ -1,8 +1,8 @@
 import os
-import cv2
 import base64
 import requests
 from datetime import datetime
+import glob
 
 # === KONFIGURASI OLLAMA ===
 MODEL_NAME = "customGemma3"
@@ -14,36 +14,6 @@ OUTPUT_DIR = os.path.join(os.getcwd(), "outputs")
 
 os.makedirs(CAPTURE_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-
-def capture_image():
-    """
-    Ambil satu frame dari kamera index 0 dan simpan ke CAPTURE_DIR.
-    Return: path gambar atau None jika gagal.
-    """
-    print("[STEP] Menangkap gambar dari kamera (index 0)...")
-    cap = cv2.VideoCapture(0)
-
-    if not cap.isOpened():
-        print("[ERROR] Kamera (index 0) tidak ditemukan atau tidak bisa dibuka.")
-        return None
-
-    ret, frame = cap.read()
-    cap.release()
-
-    if not ret or frame is None:
-        print("[ERROR] Tidak dapat menangkap gambar dari kamera.")
-        return None
-
-    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    image_path = os.path.join(CAPTURE_DIR, f"capture_{ts}.png")
-    try:
-        cv2.imwrite(image_path, frame)
-        print(f"[INFO] Gambar disimpan: {image_path}")
-        return image_path
-    except Exception as e:
-        print(f"[ERROR] Gagal menyimpan gambar: {e}")
-        return None
 
 
 def run_ollama_with_image(image_path):
@@ -76,7 +46,7 @@ def run_ollama_with_image(image_path):
         "stream": False  # supaya respons langsung sekali, bukan streaming
     }
 
-    print("[STEP] Mengirim gambar ke Ollama (Gemma3)...")
+    print(f"[STEP] Mengirim gambar {os.path.basename(image_path)} ke Ollama (Gemma3)...")
     try:
         resp = requests.post(OLLAMA_URL, json=payload)
         resp.raise_for_status()
@@ -109,20 +79,16 @@ def run_ollama_with_image(image_path):
         return None
 
 
-def generate_text_from_camera():
+def generate_text_from_image(image_path):
     """
     Fungsi utama yang akan dipanggil modul lain:
-    1. Capture gambar
+    1. Terima path gambar
     2. Kirim ke Ollama
     3. Baca teks dari file .txt
 
     Return: (text, txt_path) atau (None, None) jika gagal.
     """
-    img_path = capture_image()
-    if not img_path:
-        return None, None
-
-    txt_path = run_ollama_with_image(img_path)
+    txt_path = run_ollama_with_image(image_path)
     if not txt_path:
         return None, None
 
@@ -135,6 +101,17 @@ def generate_text_from_camera():
 
     print("[INFO] Teks hasil interpretasi berhasil dibaca.")
     return text, txt_path
+
+
+def get_latest_capture():
+    """
+    Mencari file gambar terbaru di folder captures.
+    """
+    list_of_files = glob.glob(os.path.join(CAPTURE_DIR, '*'))
+    if not list_of_files:
+        return None
+    latest_file = max(list_of_files, key=os.path.getctime)
+    return latest_file
 
 
 def clean_files():
@@ -156,31 +133,22 @@ def clean_files():
 def main():
     """
     Mode debug mandiri:
-    - 'test'  : capture + kirim ke Gemma3
-    - 'clean' : hapus semua file di captures/ dan outputs/
-    - 'q'     : keluar
+    - Ambil gambar terbaru dari captures/
+    - Kirim ke Gemma3
+    - Tampilkan hasil
     """
-    print("Perintah: test | clean | q (quit)")
-    try:
-        while True:
-            cmd = input("Masukkan perintah: ").strip().lower()
-            if cmd == "test":
-                text, txt_path = generate_text_from_camera()
-                if text:
-                    print("\n=== HASIL TEKS ===")
-                    print(text)
-                    print("==================\n")
-            elif cmd == "clean":
-                clean_files()
-            elif cmd in ("q", "quit", "exit"):
-                print("Keluar.")
-                break
-            elif cmd == "":
-                continue
-            else:
-                print("Perintah tidak dikenali. Gunakan: test | clean | q")
-    except KeyboardInterrupt:
-        print("\n[DONE] Dihentikan oleh pengguna.")
+    print("=== Generate Text Otomatis ===")
+    latest_img = get_latest_capture()
+    
+    if latest_img:
+        print(f"[INFO] Menggunakan gambar terbaru: {latest_img}")
+        text, txt_path = generate_text_from_image(latest_img)
+        if text:
+            print("\n=== HASIL TEKS ===")
+            print(text)
+            print("==================\n")
+    else:
+        print("[WARNING] Tidak ada gambar di folder captures. Jalankan captureImage.py terlebih dahulu.")
 
 
 if __name__ == "__main__":

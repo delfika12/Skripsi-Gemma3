@@ -1,0 +1,6 @@
+audios/
+captures/
+outputs/
+test/images-test/
+__pycache__/
+*.pyc

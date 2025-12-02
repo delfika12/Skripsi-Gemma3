@@ -1,8 +1,8 @@
 import time
-
 import Jetson.GPIO as GPIO
 
-from generateText import generate_text_from_camera
+from captureImage import capture_image
+from generateText import generate_text_from_image
 from generateTTS import load_voice, tts_from_text
 from playAudio import play_wav
 
@@ -21,33 +21,41 @@ voice = None  # cache model Piper supaya tidak load berulang kali
 def run_full_pipeline():
     """
     Satu rangkaian penuh:
-    1. capture + Gemma3 → teks
-    2. Piper TTS → wav
-    3. play ke speaker
+    1. Capture gambar
+    2. Gemma3 → teks
+    3. Piper TTS → wav
+    4. Play ke speaker
     """
     global voice
 
     print("\n================= PIPELINE DIMULAI =================")
 
-    # 1. Ambil teks dari modul vision-language
-    text, txt_path = generate_text_from_camera()
+    # 1. Ambil gambar dari kamera
+    img_path = capture_image()
+    if not img_path:
+        print("[PIPELINE] Gagal menangkap gambar. Stop.")
+        print("================= PIPELINE GAGAL =================\n")
+        return
+
+    # 2. Ambil teks dari modul vision-language menggunakan gambar yang baru ditangkap
+    text, txt_path = generate_text_from_image(img_path)
     if not text:
         print("[PIPELINE] Gagal di tahap vision/LLM. Stop.")
         print("================= PIPELINE GAGAL =================\n")
         return
 
-    # 2. Pastikan model Piper sudah diload
+    # 3. Pastikan model Piper sudah diload
     if voice is None:
         voice = load_voice()
 
-    # 3. TTS ke .wav
+    # 4. TTS ke .wav
     wav_path = tts_from_text(text, voice=voice)
     if not wav_path:
         print("[PIPELINE] Gagal di tahap TTS. Stop.")
         print("================= PIPELINE GAGAL =================\n")
         return
 
-    # 4. Play audio
+    # 5. Play audio
     play_wav(wav_path)
 
     print("================= PIPELINE SELESAI =================\n")
