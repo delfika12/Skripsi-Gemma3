@@ -1,0 +1,504 @@
+{
+  "annotations": [
+    {
+      "image_id": 1,
+      "captions": [
+        "Seorang pria berdiri di trotoar dekat tiang miring, sementara pengendara motor melintas. Genangan air membuat trotoar licin dan berisiko bahaya.",
+        "Pria berada di trotoar dekat tiang miring dan genangan air, sementara motor melintas. Tiang miring dan trotoar licin menimbulkan risiko bahaya.",
+        "Pria berdiri di trotoar dekat tiang miring saat motor lewat. Genangan air di trotoar serta tiang miring berisiko bahaya.",
+        "Seorang pria memotret di trotoar batu bata, sementara motor lewat di depannya. Latar belakangnya gedung tinggi dan pohon lebar. Suasana cerah berawan, namun kendaraan lewat menimbulkan risiko.",
+        "Seorang pria memotret di trotoar batu bata, dengan motor lewat di depannya. Dikelilingi pohon besar dan gedung tinggi, suasana cerah sedikit gerimis. Risiko bahaya datang dari kendaraan yang melaju."
+      ]
+    },
+    {
+      "image_id": 2,
+      "captions": [
+        "Seorang pria berjalan di lorong kantor berpintu kaca dengan poster di dinding. Lorong sempit ini berisiko menghalangi pergerakan.",
+        "Pria berjalan di lorong kantor berpintu kaca menuju ujung lorong, dengan poster di dinding. Bahaya ada pada lorong sempit yang bisa ramai.",
+        "Pria di lorong kantor berpintu kaca menuju ujung lorong, dengan cahaya alami di lantai. Lorong sempit dan penghalang pergerakan berisiko bahaya.",
+        "Seorang anak laki-laki berjalan menjauh melalui koridor terang berdinding abu-abu. Ada tanda keluar di dinding. Suasana bersih dan sepi, aman tanpa risiko terlihat.",
+        "Anak laki-laki berjalan menjauh di koridor terang berdinding abu-abu. Terlihat tanda keluar di dinding. Suasana tenang dan sepi, tidak ada bahaya terlihat."
+      ]
+    },
+    {
+      "image_id": 3,
+      "captions": [
+        "Seorang pria berdiri di trotoar sambil melihat ponsel, sementara pengendara motor melintas. Suasana tenang dengan pepohonan, namun trotoar tidak rata dan tiang miring berisiko bahaya.",
+        "Pria berdiri di trotoar memegang ponsel, sementara motor lewat. Suasana sepi dengan kendaraan parkir. Jalan tidak rata dan tiang miring berisiko bagi pejalan kaki.",
+        "Pria berdiri dekat tiang miring sambil memegang ponsel, saat motor melintas. Suasana sejuk banyak pohon. Trotoar tidak rata dan tiang miring berisiko membahayakan.",
+        "Koridor panjang teratur dengan lantai mengkilap memantulkan cahaya. Dinding abu-abu muda dengan pintu kaca lebar di kedua sisi. Seseorang tampak berjalan di koridor yang aman ini.",
+        "Koridor panjang bersih dengan lantai mengkilap memantulkan cahaya. Dinding abu-abu muda dengan pintu kaca luas. Terlihat tangki pemadam api merah di ujung. Suasana tenang dan sepi tanpa bahaya."
+      ]
+    },
+    {
+      "image_id": 4,
+      "captions": [
+        "Dua lift dengan karpet merah di depan pintu. Suasana rapi modern dengan lantai mengkilap yang berisiko licin.",
+        "Dua lift berdampingan dengan karpet merah di depannya. Lingkungan bersih teratur, namun lantai mengkilap bisa licin berbahaya.",
+        "Dua lift berkarpet merah, lantai mengkilap, dan dinding gelap. Lantai licin berisiko bahaya.",
+        "Koridor gedung kantor dengan dua pintu lift abu-abu gelap berangka 9. Lantai abu-abu dengan alas merah depan lift. Ada tempat sampah di kiri. Suasana tenang sepi, aman.",
+        "Koridor dengan dua pintu lift berangka 9. Dinding abu-abu gelap, lantai berkarpet merah kecil. Ada tempat sampah di kiri. Suasana tenang sepi, tidak ada bahaya."
+      ]
+    },
+    {
+      "image_id": 5,
+      "captions": [
+        "Dua pintu kaca dengan pria berdiri di belakangnya. Suasana rapi modern, lantai hitam-putih mengkilap. Pintu kaca transparan berisiko tidak terlihat.",
+        "Dua pintu kaca jelas, seorang pria terlihat di belakangnya. Lingkungan bersih tertata, namun pintu kaca transparan bisa membahayakan.",
+        "Dua pintu kaca menghadap ruangan berisi pria. Suasana tenang lantai bersih. Pintu kaca berisiko membingungkan jika tidak waspada.",
+        "Ruang dengan pintu kaca besar, terlihat dua orang berdiri di dalam. Lantai abu-abu putih, ada tempat sampah dan pemadam api. Suasana tenang bersih, aman.",
+        "Ruang berpintu kaca besar dengan dua orang berdiri di dalam. Lantai abu-abu putih, terlihat tempat sampah dan pemadam api. Suasana tenang terawat, tidak ada bahaya."
+      ]
+    },
+    {
+      "image_id": 6,
+      "captions": [
+        "Seorang pria berjalan di koridor bersih dengan pintu kantor di kiri. Lantai mengkilap dan basah berisiko bahaya, ditandai peringatan di dekatnya.",
+        "Pria berjalan di koridor bersih mengkilap dengan pintu kantor. Lantai basah bertanda hati-hati berisiko bahaya.",
+        "Pria bertas berjalan di koridor berpintu kantor di kiri. Suasana tenang rapi, namun lantai basah berisiko bahaya.",
+        "Koridor lebar dengan dua kursi tunggu di kanan. Wanita berjalan menjauh. Lantai abu-abu bertanda 'CAUTION WET FLOOR'. Suasana tenang sepi, terlihat aman.",
+        "Koridor luas dengan dua kursi tunggu di kanan. Wanita berjalan di latar belakang. Lantai abu-abu bertanda 'CAUTION WET FLOOR'. Suasana sepi tenang, tidak ada bahaya."
+      ]
+    },
+    {
+      "image_id": 7,
+      "captions": [
+        "Taman dengan trotoar batu basah akibat hujan, dikelilingi tanaman pot dan pohon. Lantai licin berisiko bahaya.",
+        "Taman sejuk dengan jalan batu basah dan tanaman sekitar. Lantai licin akibat hujan berisiko bahaya.",
+        "Trotoar basah dengan pot tanaman dan pohon di taman. Suasana hijau teduh, namun lantai licin hujan berpotensi bahaya.",
+        "Jalan setapak batu bata basah kuyup hujan. Jalan lebar lurus dengan pepohonan di sisi. Ada pot tanaman, bangunan putih di kejauhan. Suasana sejuk lembap, kondisi aman.",
+        "Jalan setapak bata becek hujan di area terbuka rimbun pepohonan. Ada pot tanaman di kedua sisi. Suasana lembap sejuk. Tidak ada bahaya terlihat, tapi jalan becek rawan."
+      ]
+    },
+    {
+      "image_id": 8,
+      "captions": [
+        "Tempat sampah daur ulang di tengah, dikelilingi tanaman hijau. Seorang pria berjalan di koridor bersih. Lantai basah akibat hujan berisiko bahaya.",
+        "Tempat sampah daur ulang di tengah, dikelilingi tanaman hijau, pria berjalan di latar belakang. Suasana bersih, namun lantai licin hujan berpotensi bahaya.",
+        "Tempat sampah daur ulang di tengah jalan, dengan tanaman hijau dan pria berjalan. Lingkungan rapi, namun lantai basah berpotensi bahaya.",
+        "Tempat sampah hijau merah di area terbuka bertanaman palem. Beberapa orang tampak di latar belakang. Suasana sejuk alami, tidak tampak bahaya.",
+        "Tempat sampah hijau merah di area terbuka bertanaman palem. Beberapa orang terlihat di latar belakang. Suasana sejuk alami, tidak ada bahaya terlihat."
+      ]
+    },
+    {
+      "image_id": 9,
+      "captions": [
+        "Taman bertrotoar basah dengan tanaman dan pohon besar. Bangunan terlihat di latar belakang. Lantai licin berisiko bahaya.",
+        "Trotoar basah dengan tanaman dan pohon besar, bangunan di latar belakang. Lantai licin hujan berisiko bahaya.",
+        "Taman dengan jalan basah dan pohon besar. Suasana tenang, namun lantai licin berpotensi bahaya.",
+        "Area terbuka basah kuyup hujan, lantai bata bergelombang. Ada kolam kecil di tengah dikelilingi tanaman. Bangunan merah hijau di kejauhan. Suasana sejuk lembap, tidak tampak bahaya.",
+        "Area terbuka becek hujan, lantai bata bergelombang. Kolam kecil di tengah dikelilingi tanaman. Bangunan merah hijau di belakang. Suasana sejuk lembap, lantai becek berpotensi licin."
+      ]
+    },
+    {
+      "image_id": 10,
+      "captions": [
+        "Ramp berpegangan di kiri menuju area luar bermeja kursi. Suasana tenang dengan pepohonan. Lantai basah hujan berisiko bahaya.",
+        "Ramp berpegangan tangan menuju area duduk terbuka. Lingkungan bersih teratur, namun lantai licin hujan berpotensi bahaya.",
+        "Ramp berpegangan menuju area meja kursi luar. Suasana sejuk pepohonan, lantai basah membahayakan jika tidak hati-hati.",
+        "Terowongan lebar putih dengan tangga hitam di sisi. Ujung terowongan ada ruang terbuka bermeja kursi. Pohon besar di latar belakang. Suasana sejuk teduh, aman.",
+        "Terowongan lebar berdinding putih. Ujung terowongan ada tangga ke luar. Sisi lain ada area terbuka bermeja kursi dan pohon. Suasana tenang sejuk, tidak ada bahaya."
+      ]
+    },
+    {
+      "image_id": 11,
+      "captions": [
+        "Dua konus oranye di jalan basah setelah hujan. Suasana sepi dengan pepohonan dan parkir motor. Genangan air berisiko licin.",
+        "Dua konus oranye di jalan basah, berlatar pepohonan dan parkir motor. Lingkungan rapi, namun lantai licin membahayakan.",
+        "Konus oranye di jalan basah dikelilingi pohon dan parkir motor. Suasana tenang, lantai licin hujan berpotensi bahaya.",
+        "Taman basah kuyup hujan dengan jalan setapak bata bergenangan air. Ada bangku beton di sisi jalan. Suasana lembap mendung, jalan basah berpotensi licin.",
+        "Area taman lembap hujan dengan jalan bata bergenangan air. Ada bangku beton dan rambu SWITCH GARDEN. Lingkungan lembap berpotensi licin."
+      ]
+    },
+    {
+      "image_id": 12,
+      "captions": [
+        "Pria membersihkan meja restoran yang rapi. Jalur kerikil di tengah berisiko menyebabkan tergelincir.",
+        "Pria menyusun meja restoran yang bersih modern. Kerikil di lantai berpotensi bahaya tergelincir.",
+        "Pria merapikan meja di area tenang berjalur kerikil. Kerikil licin berpotensi bahaya.",
+        "Area makan dengan meja panjang dan kursi di sepanjang koridor. Lantai kerikil putih dengan tanaman hijau di dinding. Tidak ada bahaya nampak.",
+        "Area makan bermeja panjang dan kursi di koridor. Lantai kerikil putih, tanaman hijau di dinding. Suasana tenang sejuk, tidak ada bahaya."
+      ]
+    },
+    {
+      "image_id": 13,
+      "captions": [
+        "Jalan tergenang air hujan dengan kerusakan permukaan. Suasana sepi berpepohonan. Jalan rusak dan genangan air berisiko kecelakaan.",
+        "Jalan tergenang air besar di lingkungan sepi berpepohonan. Jalan berlubang dan licin berisiko bahaya.",
+        "Jalan basah tergenang dan rusak. Suasana sepi, namun jalan tidak rata berpotensi bahaya.",
+        "Jalanan basah kuyup hujan dengan genangan air besar. Trotoar basah, pepohonan dan gedung di kejauhan. Suasana lembap, berpotensi tergelincir.",
+        "Jalan raya basah kuyup hujan dengan genangan besar. Trotoar basah, pepohonan dan gedung di kejauhan. Jalan licin dan sampah berpotensi bahaya."
+      ]
+    },
+    {
+      "image_id": 14,
+      "captions": [
+        "Tangga berpegangan stainless steel di kiri. Suasana rapi berlantai keramik bersih. Tangga berisiko licin jika tidak hati-hati.",
+        "Tangga berpegangan stainless steel, lantai rapi terawat. Suasana tenang, namun tangga licin perlu diwaspadai.",
+        "Tangga berpegangan stainless steel dengan lantai bersih. Suasana tertata, namun lantai berpotensi licin.",
+        "Tangga baja hitam perak di ruangan berdinding biru. Tanda LANTAI 3 terlihat. Tidak ada orang tampak.",
+        "Tangga baja hitam perak di tempat berdinding biru. Tanda LANTAI 3 terlihat. Tidak ada orang dalam gambar."
+      ]
+    },
+    {
+      "image_id": 15,
+      "captions": [
+        "Pria berjongkok memotret tanaman di taman. Jalan setapak basah dikelilingi tanaman hijau. Jalan licin berisiko bahaya.",
+        "Pria memotret tanaman di taman berjalan setapak basah. Lingkungan hijau asri. Jalan licin berisiko tergelincir.",
+        "Pria memotret tanaman di taman berjalan setapak basah. Suasana asri, namun jalan licin berpotensi bahaya.",
+        "Pria berjongkok di trotoar basah hujan. Dikelilingi rumput, tanaman hias, dan bangunan berornamen. Suasana lembap, tidak ada bahaya.",
+        "Pria berjongkok di trotoar basah hujan. Area taman berumput dan tanaman hias. Suasana lembap, tidak ada bahaya."
+      ]
+    },
+    {
+      "image_id": 16,
+      "captions": [
+        "Pria berdiri di taman dekat jalan basah dan pagar hijau. Lingkungan hijau asri. Jalan licin dan pagar penghalang berisiko bahaya.",
+        "Pria berdiri di taman berjalan setapak basah dan pagar hijau. Suasana asri, namun jalan licin dan pagar berpotensi bahaya.",
+        "Pria tersenyum di taman dekat jalan basah dan pagar hijau. Jalan licin dan pagar penghalang berisiko bahaya.",
+        "Pria muda berdiri di jembatan kayu atas trotoar basah. Dikelilingi rumput dan tanaman hias. Suasana basah lembap, permukaan jembatan mungkin licin.",
+        "Pria muda berdiri di jembatan kayu atas trotoar becek. Dikelilingi rumput dan tanaman hias. Suasana becek lembap, permukaan jembatan mungkin licin."
+      ]
+    },
+    {
+      "image_id": 17,
+      "captions": [
+        "Beberapa orang bekerja dengan laptop di kantor yang sibuk. Meja penuh barang berisiko menyebabkan kecelakaan jika tidak hati-hati.",
+        "Beberapa orang bekerja di meja kantor dengan laptop. Suasana produktif, namun barang berserakan di meja berpotensi bahaya.",
+        "Orang-orang bekerja di kantor dengan meja penuh peralatan. Suasana sibuk, barang tidak teratur berpotensi mengganggu.",
+        "Empat orang duduk bekerja di depan komputer. Ada poster FILKOM UB di tembok. Ruangan tampak seperti ruang kerja atau rapat.",
+        "Empat orang duduk bekerja di depan komputer. Ada poster FILKOM UB di dinding. Ruangan terlihat seperti ruang kerja atau rapat."
+      ]
+    },
+    {
+      "image_id": 18,
+      "captions": [
+        "Dua orang duduk bekerja dengan laptop di ruang kerja. Meja penuh barang, termasuk printer 3D Creality. Lantai bersih namun kabel berserakan berisiko.",
+        "Dua orang duduk di meja kantor, satu menyandarkan kepala. Meja penuh barang dan alat 3D printing. Lantai sedikit berantakan dengan kabel.",
+        "Dua orang bekerja di ruang sibuk dengan meja penuh alat teknologi. Tas dan kabel di lantai menciptakan kesan sibuk dan sedikit berantakan.",
+        "Pria duduk di depan meja dengan printer 3D putih dan peralatan. Suasana seperti workshop, aman tanpa risiko terlihat.",
+        "Pria berada di depan meja dengan printer 3D putih dan peralatan. Suasana seperti tempat kerja, tidak ada bahaya tampak."
+      ]
+    },
+    {
+      "image_id": 19,
+      "captions": [
+        "Ruangan berwastafel dengan peralatan pribadi dan rak botol. Ada pintu kamar mandi di kanan. Lantai bersih, namun noda di lantai berpotensi membahayakan.",
+        "Wastafel dengan rak dan peralatan pribadi terlihat di ruangan. Ada pintu kamar mandi di kanan. Area sekitar wastafel sedikit kotor dan berpotensi licin.",
+        "Ruangan berwastafel dengan barang pribadi dan pintu kamar mandi. Lantai tampak bersih namun berpotensi licin karena air.",
+        "Bagian kamar mandi dengan dinding bata coklat dan krem. Ada wastafel bermeja hitam dengan botol sabun. Lantai krem bertekstur.",
+        "Bagian kamar mandi dengan dinding bata coklat dan krem. Ada wastafel bermeja hitam dengan botol sabun. Lantai krem bertekstur."
+      ]
+    },
+    {
+      "image_id": 20,
+      "captions": [
+        "Tiga orang berjalan di koridor berlantai keramik mengkilap. Ada lift di kiri dan layar digital di kanan. Lantai licin berisiko bahaya.",
+        "Tiga orang berjalan di koridor berlantai keramik basah. Lift di kiri, layar digital di kanan. Lantai licin berisiko menyebabkan tergelincir.",
+        "Beberapa orang berjalan di koridor berlantai mengkilap. Lift di kiri, layar digital di kanan. Lantai licin reflektif berisiko bahaya.",
+        "Tempat lebar berlantai marmer hitam putih mengkilap reflektif. Dua orang berjalan di kejauhan, lift hitam di kiri. Suasana sepi tenang, aman.",
+        "Area luas berlantai marmer hitam putih mengkilap reflektif. Dua orang bergerak di latar belakang, lift hitam di kiri. Suasana sepi tenang, tidak ada bahaya."
+      ]
+    },
+    {
+      "image_id": 21,
+      "captions": [
+        "Seorang pria berdiri di depan lift dengan cangkir di tangan, mengenakan kaos hitam kuning dan celana panjang biru. Di sebelah kiri, terdapat tempat sampah logam dan di depan lift, ada karpet merah. Suasana tampak rapi dengan lantai keramik yang bersih dan mengkilap. Ada risiko bahaya dari lantai yang licin karena kilauan permukaan.",
+        "Pria dengan kaos hitam kuning berdiri di depan lift dengan cangkir di tangan, menunggu lift. Di sebelah lift, terdapat tempat sampah dan karpet merah di depan pintu lift. Lantai ruangan tampak bersih, namun ada potensi bahaya dari lantai yang mengkilap dan licin.",
+        "Seseorang berdiri di dekat lift dengan cangkir, mengenakan kaos hitam kuning dan celana biru. Di sekitar area lift, terdapat tempat sampah dan karpet merah di depan lift. Lantai terlihat mengkilap, namun berpotensi licin bagi pejalan kaki.",
+        "Pada gambar, ada seorang pria mengenakan kaos kuning dan celana pendek yang lagi berdiri di dekat pintu lift dengan nomor 4. Di depannya ada tempat sampah berputar dan lantai berwarna abu-abu. Suasana di ruangan ini tampak seperti area lift di gedung perkantoran. Tidak ada bahaya yang tampak.",
+        "Berikut adalah deskripsi singkat dari gambar tersebut: Objek Utama: Di sini ada sebuah pintu lift dengan nomor lantai 4. Di sini ada tempat sampah putar berwarna hitam di sisi kiri pintu lift. Di sini ada karpet merah di depan tempat sampah. Orang: Di sini ada satu orang pria yang lagi berada dan memegang minuman. Suasana: Suasana di dalam lift tampak seperti area umum di gedung perkantoran. Kondisi Lingkungan: Lantai berwarna abu-abu terang. Dinding lift berwarna hitam. Bahaya yang Mungkin Di sini ada: Tidak ada bahaya yang tampak. Namun, perlu berhati-hati karena area ini adalah area umum yang ramai."
+      ]
+    },
+    {
+      "image_id": 22,
+      "captions": [
+        "Terdapat beberapa orang sedang duduk di ruang kelas dengan laptop di depan mereka. Beberapa orang tampak fokus bekerja, sementara yang lainnya sedang berbicara atau berinteraksi. Di belakang, ada papan putih yang tampak kosong. Suasana terlihat tenang dan produktif, namun ada beberapa kursi yang kosong. Terdapat potensi gangguan dari percakapan antar teman yang mungkin mengalihkan perhatian.",
+        "Di ruang kelas ini, beberapa orang sedang duduk di meja masing-masing, bekerja di laptop atau berbicara dengan teman. Terdapat kursi yang tidak terpakai di sisi kiri, dan papan putih di belakang mereka. Suasana kelas tampak tenang, meski beberapa orang sedang terlibat percakapan. Potensi gangguan bisa terjadi akibat kebisingan kecil yang berasal dari interaksi teman.",
+        "Beberapa orang duduk di ruang kelas, beberapa sedang bekerja di laptop, sementara lainnya terlihat sedang berbicara atau melirik layar. Papan putih ada di bagian depan ruangan. Meja dan kursi terlihat teratur, namun beberapa kursi kosong. Potensi gangguan bisa muncul dari percakapan yang bisa mengalihkan perhatian orang sedang bekerja.",
+        "Terlihat sebuah ruang kelas yang dindingnya berwarna putih teratur. Di dalam ruangan, ada beberapa orang siswa yang duduk berjajar di sekitar meja panjang. Mereka tampak tengah berkumpul dan mungkin sedang melakukan diskusi atau presentasi. Ada beberapa laptop yang terbuka di meja mereka. Di langit-langit ruangan terdapat lampu gantung. Tidak tampak ada bahaya dalam gambar ini.",
+        "Di sini ada sebuah area kelas yang dindingnya berwarna putih bersih. Di dalam area, terdapat beberapa orang siswa yang duduk di meja panjang. Mereka kelihatan lagi berkumpul dan mungkin lagi berdiskusi atau mengerjakan tugas. Terlihat beberapa laptop yang terbuka di meja. Di langit-langit area terdapat lampu gantung. Tidak ada bahaya yang kelihatan dalam gambar."
+      ]
+    },
+    {
+      "image_id": 23,
+      "captions": [
+        "Seorang pria duduk di kursi panjang di koridor, memegang ponsel. Di sekitar, tampak ruangan kantor dengan kaca pemisah dan lantai keramik yang mengkilap. Di sisi kanan, terdapat alat pemadam kebakaran dan pilar yang dihias dengan lampu LED. Suasana tampak tenang dan terorganisir, namun terdapat potensi bahaya dari lantai yang licin karena kilauan permukaan.",
+        "Pria yang duduk di kursi panjang tampak sedang memeriksa ponselnya. Di latar belakang, tampak ruangan kantor dengan kaca pemisah dan kursi yang teratur. Pilar besar dengan lampu LED menghiasi ruangan ini. Lantai tampak licin, berpotensi menimbulkan bahaya jika tidak berhati-hati.",
+        "Seorang pria duduk di kursi sambil memegang ponsel, dengan meja dan kursi di sekitar yang terlihat tertata rapi. Pilar besar di dekatnya dihiasi dengan lampu LED, dan di sisi ruangan terlihat alat pemadam kebakaran. Ada risiko bahaya dari lantai yang licin akibat refleksi cahaya.",
+        "Sebuah ruang tunggu yang besar dan teratur. Lantainya berwarna putih dengan sedikit gradasi abu-abu. Ada beberapa bilik kantor kaca yang membentuk tembok belakang ruang tunggu. Di bagian depan, terlihat pagar kaca dengan bangku panjang berwarna abu-abu yang digunakan untuk tempat duduk. Ada seorang pria yang lagi duduk di bangku tersebut dan terlihat sedang membaca sesuatu di ponselnya. Suasana ruang tunggu terasa tenang dan sepi. Aman, tidak ada risiko terlihat dalam gambar ini.",
+        "Terlihat sebuah ruang tunggu yang luas dan bersih. Lantainya berwarna putih dengan sedikit gradasi abu-abu. Di sini ada beberapa bilik kaca yang memisahkan ruang tunggu dari area lain. Di bagian depan, terdapat pagar pembatas dengan bangku-bangku panjang berwarna perak. Seorang pria saat ini duduk di salah satu bangku, tampak saat ini membaca di ponselnya. Suasana terasa tenang dan sepi. Tidak ada tanda-tanda bahaya yang nampak."
+      ]
+    },
+    {
+      "image_id": 24,
+      "captions": [
+        "Di depan pintu ruangan terdapat kotak hydrant merah, tempat sampah, dan tanda peringatan HATI-HATI LANTAI LICIN di dekatnya. Lantai terlihat basah, mungkin akibat hujan, dan ada dua karpet merah di depan pintu. Di belakang, terdapat ruang kantor dengan dinding kaca buram. Ada risiko bahaya dari lantai yang licin, yang bisa menyebabkan tergelincir.",
+        "Tanda peringatan lantai licin terlihat di dekat pintu ruangan, yang berada di antara kotak hydrant merah dan tempat sampah. Lantai tampak basah dengan refleksi dari cahaya di permukaannya. Ruang kantor dengan dinding kaca buram terlihat di belakang. Ada risiko bahaya dari lantai yang licin dan bisa menyebabkan kecelakaan.",
+        "Area depan pintu ruangan terdapat kotak hydrant berwarna merah dan tempat sampah, dan tanda peringatan tentang lantai licin. Lantai tampak basah dan mengkilap, dengan dua karpet merah di dekat pintu. Di belakang, terlihat ruang kantor dengan dinding kaca. Bahaya berasal dari lantai yang licin, yang bisa membahayakan pejalan kaki.",
+        "Sebuah ruangan dengan permukaan berwarna putih dan merah. Di sebelah kiri ada sebuah keran air berwarna merah dengan tulisan HYDRANT. Ada juga alas kaki berwarna merah di bawah keran tersebut. Di kejauhan, tampak pintu kaca berwarna abu-abu. Ada juga rambu peringatan HATI-HATI LANTAI LICIN berwarna kuning. Suasana ruangan terlihat terawat dan teratur.",
+        "Merupakan sebuah koridor yang rapi dengan lantai berwarna putih dan merah. Di sebelah kiri, terdapat sebuah kotak merah lebar bertuliskan HYDRANT. Di dekat kotak tersebut, ada tanda peringatan berwarna kuning dengan tulisan HATI-HATI LANTAI LICIN. Di latar belakang, kelihatan pintu kaca yang mengarah ke ruang lain. Suasana di sini kelihatan tenang dan rapi."
+      ]
+    },
+    {
+      "image_id": 25,
+      "captions": [
+        "Di gambar ini, terdapat meja resepsionis dengan desain modern, dikelilingi ruang terbuka dengan lantai keramik yang bersih dan mengkilap. Di belakang meja, terdapat seorang petugas sedang bekerja, sementara layar digital besar menampilkan informasi. Di sisi kiri, ada beberapa pot tanaman kecil dan di sisi kanan, sebuah spanduk berdiri. Suasana tampak rapi dan terorganisir dengan potensi bahaya dari lantai yang licin.",
+        "Meja resepsionis modern di tengah gambar dengan area sekitarnya yang bersih dan terang. Seorang petugas tampak sedang bekerja di meja, sementara layar digital besar menampilkan tulisan. Terdapat pot tanaman dan kursi di sekitar meja, dengan lantai mengkilap yang berpotensi licin. Di sisi kanan, ada spanduk berdiri di dekat dinding kaca.",
+        "Meja resepsionis dengan desain unik diletakkan di tengah ruangan, dikelilingi lantai keramik mengkilap. Di meja, terdapat seorang petugas sedang sibuk bekerja, dengan latar belakang layar digital yang menampilkan informasi. Terdapat tanaman kecil di meja dan spanduk di sisi kanan. Bahaya dari lantai yang licin perlu diwaspadai.",
+        "Tampak sebuah loket atau meja resepsionis yang ada di dalam ruang. Di belakang loket terlihat tembok dengan ornamen geometris. Ada beberapa kursi di sekitarnya. Suasana ruangan tampak seperti sebuah gedung perkantoran atau pusat perbelanjaan. Tidak tampak ada bahaya dalam gambar.",
+        "Merupakan sebuah loket atau meja penerima di dalam area. Loket ini berwarna putih dengan bentuk melengkung. Di belakang loket terdapat dinding dengan ornamen geometris. Terlihat beberapa kursi di sekitarnya. Suasana tampak seperti sebuah area tunggu atau ruang resepsionis. Tidak ada bahaya yang tampak dalam gambar."
+      ]
+    },
+    {
+      "image_id": 26,
+      "captions": [
+        "Sejumlah orang sedang duduk di meja panjang, sebagian bekerja dengan laptop dan lainnya berbicara. Di sisi kiri, terdapat tangga dengan pegangan tangan. Lantai ruangannya bersih dengan keramik putih dan terdapat kursi panjang di sekitar area. Di sebelah kanan, beberapa orang sedang berjalan melewati area tersebut. Ada risiko bahaya dari tangga yang bisa licin karena kilauan lantai.",
+        "Di area ini, terlihat beberapa orang sedang duduk bersama di meja panjang, beberapa sibuk dengan laptop. Di kiri, ada tangga dengan pegangan tangan di sisi kiri. Lantai ruangannya bersih dengan keramik putih mengkilap, namun tangga berpotensi membahayakan karena bisa licin.",
+        "Beberapa orang duduk bersama di meja panjang, ada yang bekerja menggunakan laptop dan lainnya berbicara. Di kiri, terdapat tangga yang mengarah ke area bawah. Lantai bersih dan mengkilap, namun potensi bahaya dari tangga yang licin perlu diperhatikan.",
+        "Sebuah ruangan terbuka yang besar dengan permukaan berwarna putih yang berkeramik. Ada beberapa meja memanjang berwarna coklat yang disusun berderet, di sekitarnya terlihat beberapa orang yang duduk dan menggunakan laptop. Ada juga beberapa tanaman hijau yang tampak di latar belakang. Suasana tempat ini tampak ramai dan sejuk. Kondisi terlihat aman dalam gambar ini.",
+        "Berupa sebuah area terbuka yang luas dengan permukaan lantai berwarna putih yang berkeramik. Di sini ada beberapa meja panjang berwarna coklat dengan kursi di sekelilingnya. Beberapa orang tengah bertempat duduk di meja tersebut, mungkin tengah belajar atau mengobrol. Di latar belakang, tampak pepohonan hijau dan langit biru. Suasana terasa ramai dan ceria. Tidak ada bahaya yang tampak dalam gambar ini."
+      ]
+    },
+    {
+      "image_id": 27,
+      "captions": [
+        "Dua orang pria berjalan di sepanjang lorong dengan lantai keramik yang teratur, di sampingnya terdapat taman dengan tanaman hijau dan jalan berbatu. Di sebelah kanan, beberapa orang duduk di meja sambil bekerja. Ada risiko bahaya dari jalan berbatu yang bisa licin jika terkena air hujan.",
+        "Dua pria berjalan di lorong yang bersih dengan lantai keramik putih dan hitam, di sebelah kanan terdapat beberapa orang yang duduk bekerja di meja. Di sisi kiri, ada jalan berbatu yang mengarah ke taman dengan tanaman hijau. Ada risiko bahaya dari jalan berbatu yang bisa menyebabkan tergelincir.",
+        "Lorong ini menunjukkan dua pria sedang berjalan, dengan beberapa orang duduk di meja panjang di sisi kanan. Taman di luar terlihat asri dengan tanaman hijau, sementara jalan berbatu di sisi kiri dapat membahayakan jika tidak hati-hati.",
+        "Tampak adanya sebuah jalanan setapak yang lebar dan memanjang. Jalan ini dilapisi dengan ubin berwarna abu-abu yang rata. Di kedua sisi jalan terlihat tiang-tiang hitam putih yang menjulang tinggi, membentuk atap yang memberikan perlindungan dari sinar matahari. Di sepanjang jalan, terdapat kerikil berwarna abu-abu yang tersebar. Di kejauhan, saya merasakan adanya beberapa orang yang tengah duduk di ruangan terbuka, mungkin di sebuah kafe atau restoran. Suasana terasa sejuk dan tenang, dengan suara dedaunan yang lembut. Tidak ada bahaya yang nampak.",
+        "Terdapat dua orang laki-laki yang berjalan raya kaki menyusuri sebuah jalan raya setapak atau koridor. Jalan setapak ini berada di bawah atap dari kayu dengan warna hitam dan putih. Di kedua sisi jalan raya terdapat tanaman hijau yang rimbun. Lantai jalan raya setapak berwarna abu-abu dan di sekelilingnya terdapat kerikil berwarna hitam. Suasana terasa sejuk dan tenang. Tidak ada bahaya yang kelihatan."
+      ]
+    },
+    {
+      "image_id": 28,
+      "captions": [
+        "Di ruang ini, beberapa orang sedang duduk di meja panjang dengan laptop, sementara satu orang terlihat sedang memilih minuman dari mesin penjual otomatis. Di sebelah kanan, seorang pria sedang membersihkan lantai dengan sapu. Lantai ruangan tampak bersih meski sedikit basah. Ada risiko bahaya dari lantai yang licin akibat basah setelah dibersihkan.",
+        "Beberapa orang duduk di meja sambil bekerja dengan laptop, sementara satu orang di depan mesin minuman sedang memilih produk. Di sisi lain, seorang pria sedang membersihkan lantai dengan sapu. Lantai terlihat bersih, namun potensi bahaya dari lantai yang basah setelah dibersihkan bisa menyebabkan tergelincir.",
+        "Di ruangan ini, ada beberapa orang yang duduk bekerja di meja panjang, sementara seseorang sedang memilih minuman dari mesin penjual otomatis. Seorang pria terlihat sedang menyapu lantai yang basah. Lantai tampak mengkilap namun berpotensi licin setelah dibersihkan.",
+        "Terlihat sebuah tempat terbuka yang lebar dengan lantai berwarna putih mengkilap. Di tengah area tersebut, ada beberapa meja panjang berwarna hitam dengan bangku-bangku di sekitarnya. Beberapa orang lagi duduk di meja, beberapa di antaranya sedang mengambil minuman dari sebuah lemari es berwarna putih yang berdiri di dekat mereka. Di kejauhan, tampak tanaman hijau yang rimbun. Ada juga seorang pria sedang menyapu lantai di sisi kanan gambar. Suasana terasa tenang dan sejuk. Kondisi terlihat aman.",
+        "Di sini ada sebuah area terbuka yang luas dengan permukaan lantai berwarna putih mengkilap. Di tengah area tersebut, terdapat beberapa meja panjang berwarna hitam dengan bangku-bangku di sekitarnya. Beberapa orang tengah berada di meja, beberapa di antaranya tengah mengambil minuman dari sebuah lemari es berwarna putih yang berdiri di dekat mereka. Di latar belakang, kelihatan pepohonan hijau yang memberikan kesan tempat yang teduh. Tampak ada seseorang yang tengah menyapu permukaan lantai di sisi kanan gambar."
+      ]
+    },
+    {
+      "image_id": 29,
+      "captions": [
+        "Wastafel stainless menempel di tiang, di dekatnya ada pel lantai dengan ember biru. Lantai keramik dan jalan paving di luar tampak basah, beberapa pot tanaman berjajar di tepi taman hijau, dan air hujan masih menetes dari atas. Ada risiko bahaya terpeleset di lantai basah dan tepi selokan kecil di dekat wastafel.",
+        "Bagian kanan berisi panggung beton agak tinggi dengan dinding krem, di bawahnya saluran air terbuka, dan ember dan gagang pel bersandar di dinding. Bagian kiri terlihat jalan paving basah, deretan pot tanaman, dan pepohonan rimbun. Ada risiko bahaya dari permukaan licin dan perbedaan tinggi lantai di tepi panggung.",
+        "Di tengah tampak tiang besar dengan wastafel dua keran di bawahnya, pipa-pipa air dan selokan memanjang di kaki tiang. Lantai keramik abu-abu muda bercampur genangan air, sementara sisi kiri dipenuhi paving basah dan tanaman hias dalam pot. Ada risiko bahaya terpeleset saat melangkah dari keramik ke paving yang sama-sama licin.",
+        "Sebuah tempat luar ruang yang teduh. Ada sebuah tembok bata berwarna krem yang menjadi latar belakang. Di depannya terlihat lantai keramik berwarna abu-abu yang sedikit lembap. Ada sebuah wastafel dengan keran air, dan di sampingnya terdapat sapu dan ember biru. Di belakang wastafel, terdapat tanaman hias yang tumbuh di pot-pot. Di kejauhan, tampak beberapa orang dan bangunan lain. Suasana terasa sejuk dan tenang. Tidak tampak ada bahaya, tetapi lantai basah dapat menyebabkan terpeleset.",
+        "Terlihat sebuah area luar area yang teduh. Di sini ada sebuah dinding bata berwarna krem yang menjadi latar belakang. Di bagian depan terdapat lantai keramik berwarna abu-abu yang sedikit lembap. Di sini ada sebuah wastafel dengan keran air, dan di sampingnya terdapat sapu dan ember biru. Di belakang wastafel, terdapat tanaman hias yang berjajar. Suasana terasa sejuk dan teduh, dengan pepohonan hijau di kejauhan. Tidak ada bahaya yang kelihatan."
+      ]
+    },
+    {
+      "image_id": 30,
+      "captions": [
+        "Satu orang berjalan menuruni jalur landai beratap dengan pegangan stainless di kiri kanan, dikelilingi taman hijau dan semak basah. Dua rambu kuning “Caution Wet Floor” berdiri di dekat tangga dan di tengah koridor. Lantai abu-abu mengkilap oleh air hujan, terdapat potensi bahaya terpeleset di jalur landai dan anak tangga yang licin.",
+        "Seorang pria berkemeja putih melangkah di koridor luar yang punya kombinasi tangga dan ramp dengan pagar besi, diapit saluran air dan tanaman lebat. Dua papan peringatan lantai basah dipasang di jalur pejalan. Genangan air terlihat di ubin dekat tepi dan di anak tangga, terdapat potensi bahaya tergelincir terutama bagi pengguna kursi roda atau tongkat.",
+        "Koridor beratap dengan ramp bertingkat dan tangga berada di tengah area taman; daun dan rumput tampak masih basah setelah hujan. Pegangan logam membatasi sisi kiri, sementara kanan berbatasan selokan terbuka dan deretan tanaman. Dua rambu kuning menandai area licin, namun lantai tetap banyak air, sehingga terdapat potensi bahaya jatuh akibat pijakan yang tidak stabil.",
+        "Sebuah ruangan teralis dengan lantai dari ubin berwarna abu-abu. Lantai ini basah kuyup karena ada air yang menetes. Terlihat rambu kuning dengan tulisan CAUTION WET FLOOR yang menandakan lantai berbahaya. Di kejauhan, tampak ada seseorang berjalanan di tangga. Suasana sekitarnya terlihat seperti area terbuka dengan tanaman hijau di kedua sisi. Terdapat potensi lantai licin, jadi berhati-hati saat berjalan.",
+        "Sebuah area teralis dengan dasar dari ubin berwarna abu-abu. Lantai ini basah karena ada air yang menetes. Terlihat ada rambu kuning dengan tulisan CAUTION WET FLOOR yang menandakan dasar rawan. Di latar belakang, kelihatan seseorang saat ini berjalanan kaki di tangga. Suasana sekitarnya kelihatan seperti area terbuka dengan tanaman hijau di kedua sisi. Terdapat potensi dasar rawan, jadi berhati-hati saat berjalanan kaki."
+      ]
+    },
+    {
+      "image_id": 31,
+      "captions": [
+        "Di sepanjang koridor terdapat deretan bangku panjang dari kayu dan besi hitam, dengan pemandangan taman hijau di sekitarnya. Jalanan tampak basah akibat hujan, dan beberapa tanaman berada di tepi jalan. Beberapa orang tampak sedang berjalan di area ini. Ada risiko bahaya dari permukaan jalan yang licin akibat air hujan.",
+        "Tiga bangku panjang terletak di sepanjang koridor yang menghadap taman, sementara jalan paving terlihat basah karena hujan. Tanaman hijau di sisi kiri dan kanan memberikan pemandangan yang asri. Ada risiko bahaya dari lantai yang basah dan licin, terutama saat hujan.",
+        "Bangku panjang berjajar di sepanjang lorong, dengan pemandangan taman hijau di sebelah kiri. Lantai tampak basah setelah hujan, dan ada jejak air yang terlihat mengkilap. Bahaya dari lantai yang licin dapat menyebabkan terjatuh jika tidak hati-hati.",
+        "Sebuah teras atau tempat terbuka yang tertutup oleh rangka kayu berwarna gelap. Di bagian tengah teras ada beberapa meja dan kursi berwarna coklat. Tampak tanaman hijau yang tumbuh di sekitar meja dan kursi. Lantai teras berwarna abu-abu dan terlihat basah kuyup. Suasana terasa sejuk dan mungkin sedikit lembap karena kondisi hujan. Aman, tidak ada risiko terlihat, tetapi perlu berhati-hati karena permukaan basah.",
+        "Terlihat sebuah teras atau area terbuka yang tertutup oleh rangka kayu berwarna gelap. Di bagian tengah teras terdapat beberapa meja dan kursi berwarna coklat. Nampak tanaman hijau yang tumbuh di sekitar meja dan kursi. Lantai teras terbuat dari beton yang sedikit becek. Suasana terasa sejuk dan teduh. Tidak ada bahaya yang tampak dalam gambar."
+      ]
+    },
+    {
+      "image_id": 32,
+      "captions": [
+        "Tampak area luar gedung dengan tulisan GKM FILKOM besar di depan. Beberapa pohon di sekitar menambah suasana hijau, sementara di depan terlihat beberapa mahasiswa duduk di lantai. Lantai jalan paving terlihat basah setelah hujan, dengan dedaunan bertebaran di sekitarnya. Bahaya berupa lantai licin perlu diperhatikan, terutama bagi yang berjalan.",
+        "Di depan gedung, terdapat tulisan GKM FILKOM besar, dan beberapa pohon dengan dedaunan hijau subur. Beberapa mahasiswa terlihat duduk di area luar ruangan di bawah atap. Lantai jalan paving basah karena hujan, dengan potensi bahaya dari licinnya permukaan tersebut.",
+        "Di area depan gedung, terdapat tulisan besar GKM FILKOM, dan sejumlah pohon di sekitar memberikan suasana asri. Beberapa orang sedang duduk di luar di lantai dekat tangga. Lantai terlihat licin dengan genangan air, yang dapat membahayakan pengunjung yang melintas.",
+        "Tampak, saya melihat sebuah bangunan dengan pintu masuk yang besar. Di depan pintu ada tulisan besar berwarna biru dengan huruf GKOM di atasnya. Ada beberapa orang duduk di dalam bangunan. Suasana tampak tenang dan cerah karena ada banyak pepohonan di sekitar bangunan. Tidak ada bahaya yang tampak.",
+        "Pada foto ini, saya melihat sebuah bangunan dengan pintu masuk yang lebar. Di depan pintu terdapat tulisan lebar berwarna biru dengan huruf GKOM di atasnya. Terdapat beberapa orang berada di dalam bangunan. Suasana terlihat tenang dan jernih karena ada banyak pepohonan di sekitar bangunan. Tidak ada bahaya yang kelihatan."
+      ]
+    },
+    {
+      "image_id": 33,
+      "captions": [
+        "Sejumlah mahasiswa duduk di lantai, berkelompok dengan laptop dan ponsel, di ruang terbuka dekat tangga. Di sisi kiri terdapat reklame acara dan pengumuman. Lantai keramik mengkilap, terlihat bersih dan rapi. Ada risiko bahaya berupa permukaan lantai yang bisa licin, terutama di area ramai dengan banyak orang yang bergerak.",
+        "Beberapa mahasiswa sedang berkumpul, duduk di lantai sambil menggunakan laptop dan ponsel, sementara beberapa lainnya tampak berdiri dan bergerak. Di sekitar terdapat iklan kegiatan dan ruang terbuka hijau yang dihiasi tanaman. Lantai terlihat licin dan bersih, dengan potensi bahaya tergelincir, terutama pada area yang ramai.",
+        "Kelompok mahasiswa sedang duduk di area terbuka, sebagian bekerja dengan laptop, lainnya sibuk dengan ponsel. Area ini terletak dekat dengan tangga dan dihiasi dengan tanaman hijau. Lantai yang bersih dan mengkilap, namun terdapat potensi bahaya dari lantai yang licin, terutama bagi yang berjalan cepat.",
+        "Sebuah ruang lebar dengan permukaan berwarna abu-abu terang. Di lantai terlihat beberapa orang yang duduk berjajar, sebagian dari mereka lagi menggunakan laptop. Ada tangga berwarna merah yang menjulang tinggi di sisi kanan ruangan. Terdapat beberapa poster berwarna-warni yang dipasang di tembok. Suasana ruangan ini tampak tenang dan sepi. Tidak tampak ada bahaya, tapi hati-hati terhadap lantai yang licin.",
+        "Di sini ada sebuah area besar dengan permukaan lantai berwarna abu-abu terang yang sedikit mengkilap. Di permukaan lantai terdapat beberapa orang yang duduk berjajar, sebagian dari mereka lagi menggunakan laptop. Di sini ada tangga berwarna merah menyala di sisi kanan area. Di sini ada beberapa poster berwarna jernih yang dipasang di dinding. Suasana area terasa ramai dan terdapat beberapa lampu yang menerangi area. Tidak ada bahaya yang kelihatan."
+      ]
+    },
+    {
+      "image_id": 34,
+      "captions": [
+        "Tampak sebuah toko dengan rak display berisi berbagai produk di bagian depan, dan sejumlah kotak kardus dan peralatan di lantai. Ada juga tempat sampah biru dan tanaman hias di dekat toko. Lantai paving di area depan tampak licin akibat hujan, dengan potensi bahaya bagi pejalan kaki.",
+        "Toko dengan rak barang yang terbuka dan banyak kotak dan barang di sekitar area depan. Lantai paving basah dan ada tanda hujan yang membuat lantai licin, dengan potensi bahaya tergelincir jika tidak berhati-hati.",
+        "Di depan toko, terdapat berbagai barang dan peralatan yang terletak di lantai, dengan rak display produk. Area ini basah karena hujan, menyisakan potensi bahaya pada permukaan yang licin.",
+        "Sebuah ruangan di bawah atap toko atau bangunan. Ada teralis jendela di atas, dan di bawahnya terlihat permukaan beton yang sedikit lembap. Ada beberapa kotak kardus berwarna coklat yang berada di lantai. Di sisi kiri, terdapat tempat sampah berwarna biru. Suasana terlihat tenang dan sejuk. Tidak ada orang yang tampak dalam gambar ini. Kondisi terlihat aman.",
+        "Terlihat sebuah area di bawah atap toko atau bangunan. Terlihat terpal biru luas yang menutupi area tersebut. Di bawah terpal, terdapat beberapa kotak kardus berwarna coklat, tempat sampah berwarna biru, dan beberapa rak berisi produk makanan atau minuman. Lantainya terbuat dari keramik berwarna abu-abu. Suasana tampak tenang dan sejuk. Tidak ada orang yang tampak dalam gambar. Tidak ada bahaya yang nampak."
+      ]
+    },
+    {
+      "image_id": 35,
+      "captions": [
+        "Terdapat beberapa meja dengan kursi di area kafe, sementara beberapa orang sedang duduk santai menikmati waktu mereka. Latar belakang menunjukkan rak tanaman dengan tanaman hijau, dan tanah berkerikil menghiasi area tengah. Beberapa jejak kaki terlihat pada permukaan yang basah, menandakan bahwa lantai cukup licin.",
+        "Meja-meja kecil berderet di ruang kafe, dengan beberapa pengunjung duduk di sekitarnya. Di belakang mereka, terlihat rak tanaman vertikal dengan tanaman hijau subur. Lantai berkerikil terlihat basah, menambah potensi bahaya tergelincir bagi orang yang melewati area tersebut.",
+        "Di dalam kafe, meja makan dikelilingi beberapa orang yang duduk santai. Di belakang mereka, rak tanaman hijau menambah suasana alami, sementara lantai basah akibat hujan menambah risiko licin di jalur berkerikil.",
+        "Sebuah ruangan terbuka yang terlihat seperti teras atau tempat makan. Ada tiga orang wanita yang duduk di sekitar meja memanjang berwarna hitam. Lantainya terbuat dari kerikil putih yang berjejer teratur membentuk jalur. Dindingnya berwarna abu-abu muda dan di sana ada dinding vertikal yang diisi dengan tanaman hijau. Di atas terdapat canopy hitam yang memberikan naungan. Suasana terasa tenang dan sejuk. Tidak ada bahaya yang tampak.",
+        "Merupakan sebuah area terbuka yang terlihat seperti teras atau tempat makan. Terdapat tiga orang wanita yang duduk di sekitar meja panjang berwarna hitam. Lantainya terbuat dari kerikil putih yang berjejer rapi membentuk jalur. Dindingnya berwarna abu-abu muda dan di sana terdapat dinding vertikal yang diisi dengan tanaman hijau. Di atas terdapat canopy hitam yang memberikan naungan. Suasana terasa tenang dan sejuk. Tidak ada bahaya yang nampak."
+      ]
+    },
+    {
+      "image_id": 36,
+      "captions": [
+        "Terdapat beberapa sepeda motor yang terparkir di sepanjang jalan setapak dari batu paving. Jalan setapak tersebut menunjukkan kerusakan dengan beberapa ubin yang terangkat dan berlubang, mengindikasikan adanya retakan dan kerusakan pada permukaan. Ada risiko bahaya karena kerusakan pada jalan yang dapat menyebabkan kecelakaan, terutama jika seseorang terjatuh atau terperosok pada lubang yang ada.",
+        "Di sepanjang jalan setapak terlihat sepeda motor yang diparkir di sisi kiri dan kanan, sementara permukaan jalan tampak rusak. Ubin paving yang terangkat dan berlubang membentuk jalur yang tidak rata, dengan beberapa bagian jalan yang terendam tanah. Ada risiko bahaya terkait dengan kerusakan jalan yang dapat menyebabkan kecelakaan pada pejalan kaki atau kendaraan yang melewati area tersebut.",
+        "Sepeda motor terparkir rapi di sepanjang jalan, namun jalan setapak dari paving menunjukkan kerusakan yang signifikan. Beberapa bagian jalan mengalami keretakan dengan ubin yang terangkat, meninggalkan lubang-lubang besar. Ada risiko bahaya pada jalan tersebut, yang dapat menyebabkan risiko tergelincir atau jatuh jika tidak diperbaiki.",
+        "Ada jalan setapak dari batu bata. Ada dua sepeda motor yang terparkir di kedua sisi jalan. Ada dedaunan hijau di tepi jalan. Jalanan tampak tidak rata dan ada beberapa batu bata yang lepas. Suasana tampak biasa saja, tidak ada bahaya yang terlihat jelas.",
+        "Di sini ada jalan raya setapak dari batu bata. Di kedua sisi jalan raya ada dinding bata. Di sini ada dua sepeda kendaraan roda dua yang terparkir di jalan raya. Di sini ada dedaunan hijau di tepi jalan raya. Kondisi jalan raya tampak agak rusak dengan beberapa batu bata yang lepas. Tidak ada bahaya yang tampak, tetapi jalan rayaan mungkin tidak rata dan berpotensi menyebabkan tersandung."
+      ]
+    },
+    {
+      "image_id": 37,
+      "captions": [
+        "Terdapat jalan setapak dengan paving yang rusak di area parkir yang sebagian besar kosong. Di sisi kanan, ada beberapa mobil terparkir, dan di sisi kiri terdapat bangunan dengan dua lantai. Jalan setapak punya beberapa genangan air akibat hujan yang turun, dan ada juga beberapa potensi bahaya terkait dengan kerusakan paving yang dapat menyebabkan kecelakaan. Lingkungan terlihat sepi, dan ada banyak tanaman yang menghiasi sekitar.",
+        "Di sepanjang jalan setapak yang terdapat beberapa genangan air, ada area parkir yang sebagian terisi mobil. Di sebelah kiri jalan, terlihat bangunan bertingkat dua yang sudah tua dan area sekitar yang dipenuhi dengan rerumputan dan tanaman. Ada risiko bahaya akibat kerusakan pada paving jalan dan genangan air, yang bisa menyebabkan tergelincir bagi siapa saja yang melintas.",
+        "Area parkir terlihat dengan beberapa mobil yang terparkir di tepi jalan, di mana jalan setapak di sebelahnya menunjukkan kerusakan pada paving yang terangkat. Jalan tersebut juga tergenang air hujan yang turun, dan lingkungan di sekitar jalan dipenuhi dengan pepohonan dan tanaman. Ada risiko bahaya terkait dengan jalan yang rusak dan genangan air yang dapat menyebabkan risiko terjatuh.",
+        "Tampak sebuah tempat parkir yang lembap karena hujan. Ada beberapa mobil yang terparkir di area tersebut. Di sebelah kiri, ada tumpukan batu bata yang berada di tanah. Di latar belakang, terlihat sebuah bangunan bertingkat dengan jendela-jendela berwarna putih. Suasana tampak lembap dan agak suram karena cuaca mendung. Kondisi terlihat aman, tetapi ada potensi tergelincir karena permukaan jalanan yang basah.",
+        "Terlihat sebuah area parkir yang lembap karena hujan. Di sini ada beberapa kendaraan yang terparkir di area tersebut. Di sebelah kiri, terdapat tumpukan batu bata yang tergeletak di tanah. Di latar belakang, tampak sebuah bangunan bertingkat dengan jendela-jendela berwarna putih. Suasana tampak lembap dan agak suram karena cuaca mendung. Tidak ada bahaya yang tampak, tetapi ada potensi terpeleset karena permukaan jalanan yang lembap."
+      ]
+    },
+    {
+      "image_id": 38,
+      "captions": [
+        "Terdapat area konstruksi dengan paving sedang dikerjakan di bagian depan bangunan. Beberapa tumpukan batu paving terlihat berserakan di sekitar jalan, dengan satu kereta dorong yang penuh dengan batu paving. Terdapat genangan air di beberapa bagian jalan yang masih belum selesai dipasang paving-nya. Ada risiko bahaya dari batu paving yang berserakan dan tumpahan material yang dapat menyebabkan kecelakaan.",
+        "Di area ini, terlihat tumpukan batu paving yang belum dipasang, dengan kereta dorong yang terisi penuh dengan batu paving di sampingnya. Beberapa bagian jalan masih dalam proses pengerjaan, dan terdapat genangan air di beberapa bagian. Ada risiko bahaya dari kerusakan jalan dan tumpukan material yang bisa mengganggu pejalan kaki dan kendaraan yang lewat.",
+        "Jalan setapak sedang dikerjakan tampak dengan tumpukan batu paving di sampingnya dan kereta dorong yang penuh dengan batu paving. Beberapa bagian jalan masih kosong tanpa paving, dan ada genangan air yang tertinggal. Ada risiko bahaya yang karena jalan yang belum selesai dan tumpahan material yang bisa membahayakan orang yang lewat.",
+        "Sebuah tempat konstruksi yang tengah dibangun di luar ruang. Tampak beberapa bata yang berceceran di tanah yang lembap. Di sampingnya terlihat sebuah gerobak kayu yang juga berserakan. Di kejauhan tampak bangunan perkantoran dan beberapa kendaraan parkir. Suasana tampak sedang hujan. Mungkin ada tergelincah karena tanah lembap dan bata berserakan.",
+        "Di sini ada sebuah area konstruksi yang tengah dibangun di luar tempat. Terlihat ada beberapa bata yang berserakan di tanah yang lembap. Di sampingnya ada sebuah gerobak kayu yang tergeletak di atas tanah. Di latar belakang, kelihatan bangunan dengan jendela-jendela berpendingin udara (AC) dan beberapa kendaraan parkir. Suasana tampak tengah hujan. Di sini ada potensi tergelincah karena tanah lembap dan bata berserakan."
+      ]
+    },
+    {
+      "image_id": 39,
+      "captions": [
+        "Sebuah jalan yang dikelilingi pohon hijau dan tanaman hias, dengan kendaraan sedang melintas. Sebuah mobil putih terlihat berjalan di jalan yang agak basah, mungkin karena hujan. Dua orang pengendara sepeda motor juga tampak melintas. Ada risiko bahaya akibat genangan air di jalan yang bisa menyebabkan kendaraan tergelincir.",
+        "Terlihat sebuah jalan dengan pohon-pohon hijau di sepanjang sisi jalan. Sebuah mobil putih sedang lewat di jalan yang sedikit tergenang air hujan. Di sebelahnya, dua pengendara motor melaju. Ada risiko bahaya pada permukaan jalan yang licin akibat hujan yang dapat mengganggu kenyamanan berkendara.",
+        "Jalan ini dikelilingi pepohonan dan tanaman hias yang rapi, dengan kendaraan yang melintas. Sebuah mobil putih terlihat melintas di jalan yang sedikit basah karena hujan, sementara dua pengendara motor lewat di sisi lain. Ada risiko bahaya dari genangan air hujan di jalan yang dapat menyebabkan licin atau kecelakaan bagi pengendara.",
+        "Terlihat sebuah jalanan setapak dari beton, dengan beberapa genangan air di permukaannya. Di sisi jalan, terlihat sebuah kendaraan berwarna putih, mungkin minivan. Di latar belakang, terdapat pepohonan hijau lebat dan sebuah bangunan tinggi berwarna abu-abu. Selain itu, terlihat beberapa kendaraan lain yang terparkir di ruangan tersebut. Suasana tampak cerah dengan langit abu-abu. Kondisi terlihat aman, namun kondisi jalan yang lembap dapat menyebabkan tergelincir.",
+        "Nampak jalan raya setapak dari batu bata dan semen. Di jalan raya tersebut, ada seorang pengendara kendaraan roda dua yang saat ini lewat dari kejauhan. Di depan pengendara kendaraan roda dua, terdapat sebuah mobil berwarna putih yang saat ini berhenti. Di sisi jalan raya, terdapat taman dengan pepohonan hijau dan semak-semak. Di latar belakang, tampak bangunan tinggi berwarna abu-abu dan beberapa kendaraan parkir. Suasana tampak jernih dengan langit abu-abu. Tidak ada bahaya yang tampak."
+      ]
+    },
+    {
+      "image_id": 40,
+      "captions": [
+        "Terdapat jalan yang dikelilingi pepohonan hijau yang rimbun. Sebuah sepeda motor dengan pengendara mengenakan helm lewat di jalan tersebut. Di sisi kanan, terdapat beberapa mobil yang terparkir, termasuk mobil berwarna merah. Ada risiko bahaya akibat jalan yang sedikit licin akibat genangan air hujan yang dapat menyebabkan kecelakaan atau tergelincir bagi pengendara.",
+        "Jalan ini terlihat tertata rapi dengan pohon-pohon besar di kedua sisi, memberikan teduh pada pejalan kaki. Sebuah sepeda motor lewat di jalan yang basah karena hujan, dengan mobil-mobil terparkir di sebelah kiri. Ada risiko bahaya dari kondisi jalan yang basah yang bisa membahayakan pengendara motor atau kendaraan yang melintas.",
+        "Gambar menunjukkan jalan yang dikelilingi pohon-pohon hijau dan tanaman hias. Di jalan tersebut, terlihat sebuah sepeda motor melintas, sedangkan beberapa mobil terparkir rapi. Ada risiko bahaya pada permukaan jalan yang sedikit tergenang air hujan, yang berpotensi membuat jalan menjadi licin bagi kendaraan yang melintas.",
+        "Seorang pengendara motor yang tengah lewat di jalananan. Di depannya ada jalan yang dipenuhi kendaraan lain, seperti mobil dan motor. Di sisi jalan terdapat pepohonan lebar yang memberikan naungan. Suasana jalanan terlihat ramai dan agak lembap karena hujan. Aman, tidak ada risiko terlihat, tapi hati-hati karena lalu lintas padat.",
+        "Terlihat seorang pengendara motor yang tengah lewat di jalananan. Pada sisi depan terdapat jalanan yang dipenuhi kendaraan lain, seperti otomotif dan motor. Di sisi jalanan terdapat pepohonan lebar yang memberikan naungan. Suasana jalananan kelihatan ramai dan agak lembap karena hujan. Tidak ada bahaya yang kelihatan, tapi hati-hati karena lalu lintas padat."
+      ]
+    },
+    {
+      "image_id": 41,
+      "captions": [
+        "Terdapat jalan setapak dengan trotoar yang terlihat basah akibat hujan. Di sepanjang jalan, terdapat tanaman hijau yang tertata rapi di sisi kanan. Di atas trotoar, terlihat tanda khusus untuk pengguna kursi roda. Ada risiko bahaya karena genangan air hujan yang bisa membuat trotoar licin, berisiko bagi pejalan kaki.",
+        "Di sisi jalan ini, trotoar basah terhampar dengan tanaman hijau yang menghiasi bagian tepiannya. Sebuah simbol untuk penyandang disabilitas tampak pada salah satu bagian trotoar. Ada risiko bahaya dari kondisi jalan yang licin karena air hujan yang menggenang, berisiko bagi pejalan kaki terutama yang tidak berhati-hati.",
+        "Trotoar di gambar ini terlihat tergenang air hujan, dengan jejak-jejak air yang membuat jalan terlihat licin. Tanda untuk pejalan kaki disabilitas jelas terlihat pada trotoar tersebut. Ada risiko bahaya akibat kondisi jalan yang licin, yang dapat menyebabkan kecelakaan bagi pejalan kaki.",
+        "Tampak jalananan yang basah kuyup karena hujan. Ada trotoar berbahan bata berwarna abu-abu dan coklat. Ada tanda kursi roda berwarna hitam di trotoar. Di sisi trotoar, terlihat tanaman hijau yang rimbun. Di kejauhan, tampak jalanan yang ramai dengan kendaraan dan bangunan-bangunan tinggi. Suasana sekitarnya tampak lembap dan agak gelap karena cuaca mendung. Aman, tidak ada risiko terlihat, tetapi kondisi jalan basah dapat menyebabkan tergelincir.",
+        "Terlihat jalanan yang basah karena hujan. Terdapat trotoar berbahan bata berwarna abu-abu dan coklat. Di sini ada tanda kursi roda berwarna hitam di trotoar. Di sisi trotoar, terdapat tanaman hijau yang rimbun. Di bagian belakang, kelihatan jalanan dengan beberapa kendaraan dan bangunan. Suasana sekitarnya kelihatan lembap dan agak gelap karena cuaca mendung. Tidak ada bahaya yang kelihatan, tetapi kondisi jalan basah dapat menyebabkan jatuh."
+      ]
+    },
+    {
+      "image_id": 42,
+      "captions": [
+        "Terdapat seseorang sedang membersihkan area depan tangga menggunakan ember di dekat pintu masuk gedung. Tanda peringatan Caution Wet Floor terletak di atas lantai yang basah, menandakan potensi bahaya karena genangan air yang bisa membuat permukaan licin. Di sekitar area ini, terdapat tanaman hias yang terletak rapi di pot-pot besar.",
+        "Di depan gedung, tampak seorang pria sedang membersihkan tangga dengan ember, diikuti oleh tanda Caution Wet Floor di dekat area yang basah. Ada risiko bahaya terkait permukaan yang licin karena air yang menggenang. Tanaman hijau juga terlihat menghiasi area sekitar tangga, memberikan nuansa asri.",
+        "Seorang pria tengah membersihkan lantai dengan ember di sekitar tangga, dengan tanda peringatan Caution Wet Floor yang menunjukkan adanya potensi bahaya licin di area tersebut. Tanaman hias dalam pot besar berada di sekitar tangga, menciptakan suasana yang segar meski permukaan yang basah berpotensi menambah risiko tergelincir.",
+        "Terlihat sebuah pintu masuk gedung. Ada tangga yang mengarah ke pintu. Di sisi tangga ada seorang petugas yang memegang ember dan sapu. Di samping petugas ada tanaman. Pintu masuk tersebut punya desain yang unik dengan panel-panel berwarna. Suasana terlihat tenang dan bersih. Kondisi terlihat aman.",
+        "Berupa sebuah pintu masuk konstruksi. Di sini ada tangga yang mengarah ke pintu. Di sisi tangga ada seorang petugas yang memegang ember dan sapu. Di samping petugas ada tanaman. Pintu masuk tersebut punya desain yang modern dengan panel kaca. Suasana kelihatan bersih dan rapi. Tidak ada bahaya yang kelihatan."
+      ]
+    },
+    {
+      "image_id": 43,
+      "captions": [
+        "Terdapat dua cone oranye yang diletakkan di area yang basah setelah hujan, mengindikasikan potensi bahaya karena lantai yang licin. Seorang pejalan kaki sedang berjalan melewati area tersebut, menghindari genangan air di jalan. Di sekitar area ini, terdapat beberapa kendaraan yang diparkir rapi, dengan pepohonan hijau di sepanjang jalan yang menambah kesan asri pada lingkungan.",
+        "Di area jalan, tampak dua cone oranye di atas lantai yang basah akibat hujan, mengindikasikan potensi bahaya akibat permukaan yang licin. Seorang individu sedang berjalan melewati area tersebut, sementara kendaraan terlihat terparkir di sepanjang jalan. Area ini dikelilingi banyak pepohonan, memberikan suasana yang hijau dan segar.",
+        "Terlihat dua cone peringatan di jalan yang basah, menandakan potensi bahaya licin di area tersebut. Seorang pejalan kaki sedang melintas, menghindari genangan air. Di sekitar jalan, banyak kendaraan yang diparkir dengan rapi, dan tumbuhan hijau mengelilingi area, menciptakan lingkungan yang asri meskipun lantai basah.",
+        "Ada jalan di ruangan perkotaan yang lembap karena hujan. Ada genangan air di jalanan yang memantulkan bangunan dan kendaraan di sekitarnya. Ada beberapa kendaraan parkir di kedua sisi jalan, termasuk mobil dan motor. Di tengah jalan, terlihat sebuah taman mungil dengan tanaman dan sebuah tiang pancang. Suasana umumnya cerah dengan langit biru, namun kondisi jalanan basah dan berbahaya. Aman, tidak ada risiko terlihat, tetapi kondisi jalanan basah berpotensi menyebabkan tergelincir.",
+        "Berupa jalan raya di area perkotaan yang basah karena hujan. Di sini ada genangan air di jalan rayaan yang memantulkan bangunan dan kendaraan di sekitarnya. Di sini ada beberapa kendaraan parkir di kedua sisi jalan raya, termasuk kendaraan dan sepeda sepeda motor. Di tengah jalan raya, terdapat sebuah taman mungil dengan tanaman dan sebuah tiang pancang. Suasana sekitarnya adalah area perkotaan yang ramai dengan pepohonan lebar di latar belakang. Tidak ada bahaya yang kelihatan, tetapi jalan rayaan basah dapat menyebabkan jatuh."
+      ]
+    },
+    {
+      "image_id": 44,
+      "captions": [
+        "Sebuah meja kayu kecil yang terletak di dalam ruang yang menghadap ke area luar ruangan dengan meja panjang di luar. Di luar, terlihat taman dengan pot tanaman gantung di atasnya. Kondisi ruangan tampak cukup bersih, dan lantai mengkilap. Ada risiko bahaya terkait dengan kaca jendela yang terbuka dan akses keluar yang mungkin membahayakan jika tidak dijaga dengan baik.",
+        "Ruangan ini punya meja kayu kecil yang berada dekat dengan pintu yang menghadap ke area luar yang basah akibat hujan. Di luar, terlihat beberapa meja panjang dan pot tanaman gantung di atasnya. Ruangan tampak bersih dengan lantai yang mengkilap. Ada risiko bahaya dari akses keluar melalui pintu yang terbuka, yang dapat membahayakan jika ada orang yang tidak waspada.",
+        "Meja kayu kecil terletak di sudut ruangan yang punya jendela besar menghadap ke area luar yang tampak basah akibat hujan. Di luar, ada beberapa meja panjang dengan tanaman gantung. Lantai ruangan terlihat bersih dan mengkilap. Ada risiko bahaya terkait dengan akses pintu yang terbuka ke luar ruangan, yang bisa berisiko jika tidak hati-hati.",
+        "Sebuah balkon atau teras dengan pintu kaca lebar yang terbuka. Di luar, tampak hujan deras dengan langit abu-abu gelap. Ada beberapa meja dan kursi di teras, dan beberapa pot tanaman. Lantai teras berwarna coklat muda dan terbuat dari material yang terlihat seperti ubin. Suasana terasa lembap dan lembap karena hujan. Tidak tampak ada bahaya, tetapi kondisi cuaca yang buruk dapat menyebabkan jalananan licin.",
+        "Terlihat sebuah balkon atau teras yang kelihatan dari dalam sebuah tempat. Terdapat sebuah meja dan bangku kayu di sisi kiri. Di luar, kelihatan ada beberapa meja dan bangku lainnya, dan tanaman pot yang berjajar. Suasana kelihatan basah karena hujan, dan ada bangunan-bangunan tinggi di kejauhan."
+      ]
+    },
+    {
+      "image_id": 45,
+      "captions": [
+        "Sebuah ruang dengan tangga yang mengarah ke lantai atas. Di sebelah kiri ruangan, ada jendela besar yang memungkinkan pemandangan luar ruangan dengan beberapa tanaman hijau. Di sudut ruang, terdapat tabung pemadam kebakaran. Lantai tampak bersih dan mengkilap, dengan garis hitam-putih pada pelapis lantai. Ada risiko bahaya pada tangga yang tidak dilengkapi dengan pegangannya yang cukup kuat untuk mencegah kecelakaan.",
+        "Ruangan ini punya tangga yang mengarah ke lantai atas, dengan jendela besar di sebelah kiri yang menawarkan pemandangan tanaman luar. Sebuah tabung pemadam kebakaran terletak di sudut ruangan. Lantai ruangan terlihat bersih dengan pelapis lantai yang punya garis hitam-putih. Ada risiko bahaya terkait dengan kurangnya pegangan yang memadai pada tangga, yang dapat menyebabkan kecelakaan.",
+        "Dalam gambar ini terlihat ruang dengan tangga yang menuju ke atas, dan jendela besar di samping yang memperlihatkan tanaman di luar ruangan. Di pojok ruangan, ada tabung pemadam kebakaran yang terpasang. Lantai ruangan mengkilap dengan motif hitam-putih pada pelapisnya. Ada risiko bahaya pada tangga, terutama karena desain yang mungkin tidak cukup aman untuk pengguna dengan keterbatasan fisik.",
+        "Sebuah ruang yang lebar dengan dinding berwarna abu-abu muda. Di sebelah kiri, ada kolom berwarna coklat muda dengan sebuah tangki pemadam api. Di kejauhan, tampak tangga berwarna abu-abu dengan beberapa anak tangga. Ada jendela luas di sebelah kanan yang memungkinkan cahaya alami masuk. Suasana terasa tenang dan bersih. Tidak ada orang yang terlihat dalam gambar ini. Tidak ada bahaya yang jelas terlihat.",
+        "Merupakan sebuah ruang yang luas dengan dinding berwarna abu-abu muda. Terdapat sebuah kolom luas di sisi kiri, di depannya terdapat tangga berwarna abu-abu dengan anak tangga yang cukup banyak. Di sisi kanan, terdapat jendela luas dengan atap jaring. Suasana terasa tenang dan bersih. Tidak ada orang yang kelihatan dalam gambar ini. Tidak ada bahaya yang jelas kelihatan."
+      ]
+    },
+    {
+      "image_id": 46,
+      "captions": [
+        "Gambar menunjukkan seseorang sedang turun tangga. Tangga tersebut dilengkapi dengan pegangan berbahan logam berwarna putih, namun tampak sedikit berkarat. Di bagian atas tangga, ada pintu yang mengarah ke ruang dengan tanda nomor 3. Lantai terlihat bersih dan rapi. Ada risiko bahaya pada pegangan tangga yang mungkin sudah tidak cukup kuat, dan potensi kecelakaan akibat turun tangga di area yang sempit.",
+        "Seorang individu terlihat turun tangga, dengan pegangan logam putih yang tampak sedikit berkarat. Di atas tangga terdapat pintu menuju ruang yang teridentifikasi dengan angka 3. Lantai terlihat bersih dan terawat. Ada risiko bahaya pada pegangan tangga yang kurang kokoh, dan risiko terpeleset saat menuruni tangga.",
+        "Dalam gambar ini, terlihat seseorang sedang turun dari tangga, dengan pegangan tangga dari logam putih yang sudah tampak usang. Di atas tangga, terdapat ruang dengan pintu bertanda angka 3. Lantai yang ada di sekitarnya bersih dan terawat. Ada risiko bahaya terkait kondisi pegangan tangga yang dapat menyebabkan kecelakaan.",
+        "Tampak sebuah tangga dengan dinding bata berwarna abu-abu. Di ujung tangga, ada sebuah pintu kaca berwarna abu-abu dengan bingkai berwarna putih. Di balik pintu, terlihat tempat dengan beberapa orang yang lagi terletak di sana. Suasana tampak seperti di dalam gedung perkantoran. Kondisi terlihat aman.",
+        "Berupa sebuah tangga dengan dinding bata berwarna abu-abu. Di ujung tangga, ada sebuah pintu kaca berwarna abu-abu dengan bingkai berwarna putih. Di balik pintu, tampak ruang dengan beberapa orang yang tengah berada di sana. Suasana terlihat seperti di dalam bangunan perkantoran. Tidak ada bahaya yang tampak."
+      ]
+    },
+    {
+      "image_id": 47,
+      "captions": [
+        "Terlihat jalan setapak yang dikelilingi tanaman dalam pot. Terdapat beberapa pot tanaman yang tertata rapi di sepanjang jalan. Suasana terlihat sejuk dengan pohon-pohon yang tumbuh subur di kedua sisi. Lantai jalan terlihat basah, mungkin akibat hujan sebelumnya. Ada risiko bahaya berupa permukaan jalan yang licin akibat air hujan, yang dapat menyebabkan terjatuh jika tidak berhati-hati.",
+        "Pada gambar ini terlihat jalan yang dihiasi dengan tanaman dalam pot, memberikan suasana asri dan sejuk. Jalan setapak ini terlihat basah dengan genangan air akibat hujan, dan terdapat beberapa pot tanaman yang diletakkan dengan teratur. Ada risiko bahaya berupa jalan yang licin karena hujan, yang bisa menyebabkan seseorang tergelincir.",
+        "Gambar menunjukkan jalan setapak dengan beberapa pot tanaman yang rapi di sepanjang sisi jalan. Tanaman hijau dan pepohonan di sekitar memberikan kesan alami dan sejuk. Kondisi jalan tampak basah karena hujan, dan terdapat potensi bahaya pada permukaan yang licin, terutama bagi pejalan kaki yang tidak berhati-hati.",
+        "Terlihat sebuah trotoar dari bata berjejer dengan pola kotak-kotak. Trotoar ini terletak di sebuah taman yang lembap dan sejuk. Ada beberapa pot tanaman dengan dedaunan berwarna hijau dan kuning di kedua sisi trotoar. Di kejauhan, tampak pepohonan tinggi dan bangunan berwarna abu-abu. Suasana tampak tenang dan sedikit lembap karena hujan. Aman, tidak ada risiko terlihat, tetapi kondisi jalan basah dapat menyebabkan terpeleset.",
+        "Terlihat sebuah trotoar dari bata berjejer dengan pola kotak-kotak. Trotoar ini berada di sebuah taman yang lembap dan sejuk. Terdapat beberapa pot tanaman dengan dedaunan berwarna hijau dan kuning di kedua sisi trotoar. Di bagian belakang, kelihatan pepohonan hijau dan bangunan berwarna abu-abu. Suasana taman kelihatan sejuk dan lembap karena mungkin hujan baru saja turun. Tidak ada bahaya yang kelihatan dalam gambar ini."
+      ]
+    },
+    {
+      "image_id": 48,
+      "captions": [
+        "Terlihat area dekat lift di lantai 2, dengan papan petunjuk yang menampilkan denah lantai. Terdapat dua lift yang berdampingan dan sebuah tempat sampah di sebelah kanan. Suasana terlihat rapi dengan lantai yang bersih dan terawat. Sebuah tanaman kecil diletakkan di sudut ruangan. Ada risiko bahaya jika tidak hati-hati dengan permukaan lantai yang licin, terutama saat keluar dari lift.",
+        "Pada gambar ini terlihat area lantai 2 dengan dua lift yang terpasang di dinding. Di sampingnya ada papan petunjuk yang menunjukkan denah lantai. Ruangan tampak bersih dan terorganisir, dengan sebuah pot tanaman di sudut. Ada risiko bahaya berupa lantai yang licin, terutama setelah hujan atau ketika tidak ada alas kaki yang memadai.",
+        "Gambar menunjukkan area dekat lift lantai 2, dengan papan petunjuk lantai di depan dan dua lift yang berjajar. Lantai yang bersih dan terawat memberikan kesan modern pada ruangan ini, dan ada tanaman pot kecil yang diletakkan di sudut ruangan. Ada risiko bahaya akibat lantai yang licin, yang bisa menyebabkan terjatuh jika tidak berhati-hati.",
+        "Terlihat sebuah koridor di dalam gedung. Ada sebuah lift berwarna hijau dengan nomor 2. Di tembok ada denah permukaan dengan nomor 2 yang menunjuk ke arah koridor. Ada juga tempat sampah berwarna perak di sisi koridor. Lantainya berwarna abu-abu terang dan dindingnya berwarna abu-abu muda. Tidak ada bahaya yang nampak.",
+        "Merupakan sebuah koridor di dalam bangunan perkantoran. Terlihat sebuah lift berwarna hijau dengan nomor 2. Di dinding terdapat denah permukaan lantai bangunan dengan nomor permukaan lantai yang tertera. Terlihat juga sebuah tempat sampah berwarna perak. Lantai berwarna abu-abu terang. Tidak ada bahaya yang nampak."
+      ]
+    },
+    {
+      "image_id": 49,
+      "captions": [
+        "Terlihat jalur pejalan kaki dengan permukaan yang basah, terlihat sebuah tanda peringatan Caution Wet Floor di depan. Di sebelah kanan, ada sebuah bak penampungan air yang terpasang pada sebuah tiang, dan di sekitar area ini terdapat tanaman hijau. Suasana tampak tenang, namun terdapat potensi bahaya karena permukaan lantai yang licin akibat hujan.",
+        "Pada gambar ini, terlihat jalur yang dilengkapi dengan pegangan tangan untuk memudahkan pejalan kaki. Sebuah tanda Caution Wet Floor diletakkan di dekatnya untuk mengingatkan agar berhati-hati. Di sebelah kanan terdapat sebuah bak penampung air, dan banyak tanaman hijau yang menambah kesan alami. Ada risiko bahaya lantai yang licin akibat air yang tergenang.",
+        "Gambar menunjukkan area luar bangunan dengan permukaan lantai yang basah akibat hujan. Di dekat area tersebut, terdapat tanda peringatan Caution Wet Floor. Sebuah bak penampung air juga terlihat di sebelah kanan, dikelilingi tanaman hijau yang memberikan suasana segar. Ada risiko bahaya dari lantai yang licin dan mungkin menyebabkan tergelincir.",
+        "Tampak tempat luar area yang cukup lebar dengan permukaan keramik berwarna abu-abu. Ada sebuah kolam atau bak air yang besar dengan bentuk melengkung, terbuat dari bahan yang tampak seperti batu atau beton. Di samping kolam air terlihat tanaman hijau yang rimbun. Ada juga rambu peringatan CAUTION WET FLOOR berwarna kuning yang menempel di dekatnya. Suasana terasa sejuk dan lembap. Terdapat potensi tergelincir karena lantai basah kuyup.",
+        "Merupakan area luar area yang cukup luas dengan permukaan lantai ubin berwarna abu-abu. Terdapat sebuah kolam air mungil yang menonjol dengan air yang mengalir. Di samping kolam air, terdapat pagar kayu yang tinggi. Terdapat rambu peringatan CAUTION WET FLOOR berwarna kuning yang menempel di dekatnya. Suasana terasa sejuk dan lembap, dengan banyak tanaman hijau di sekitar. Terdapat mungkin permukaan lantai licin karena air."
+      ]
+    },
+    {
+      "image_id": 50,
+      "captions": [
+        "Terlihat area ruang terbuka dengan lantai yang basah, mungkin akibat hujan. Di latar depan, ada seorang pria yang berdiri di dekat meja, sementara di belakangnya terlihat sekelompok orang yang duduk bersama. Meja-meja tersebut terbuat dari kayu dengan desain sederhana. Suasana tampak ramai dengan beberapa orang beraktivitas, namun terdapat potensi bahaya di lantai yang licin.",
+        "Pada gambar ini, terlihat suasana ruang dengan beberapa meja di tengahnya, tempat orang-orang duduk. Di latar depan, seorang pria berdiri di dekat meja sambil menghadap ke arah lain. Beberapa orang terlihat sedang berkumpul di sisi belakang ruang. Lantai yang basah memberi kesan bahwa mungkin hujan baru saja terjadi. Ada risiko bahaya di area lantai yang basah dan licin.",
+        "Terlihat area dalam ruangan dengan meja-meja panjang dari kayu. Di depan, terdapat seorang pria yang berdiri di samping meja, sedangkan di belakangnya beberapa orang sedang duduk. Lantai yang tampak basah menunjukkan adanya potensi bahaya karena bisa menyebabkan tergelincir, terutama di area yang tidak dilapisi dengan karpet atau penutup lainnya.",
+        "Tampak sebuah ruangan terbuka yang besar dengan lantai berwarna abu-abu terang. Ada beberapa meja memanjang berwarna coklat dengan rangka hitam yang disusun dalam barisan. Meja-meja ini terletak di antara beberapa tiang penyangga. Di sekitar meja, tampak beberapa orang yang lagi duduk atau berdiri. Ada tanaman hijau di latar belakang, dan langit cerah terlihat di atas. Suasana terasa tenang dan ramai pada saat yang sama. Aman, tidak ada risiko terlihat dalam gambar ini.",
+        "Terlihat sebuah area terbuka yang luas dengan dasar berwarna abu-abu terang. Terdapat beberapa meja panjang berwarna coklat dengan rangka hitam yang disusun dalam barisan. Meja-meja ini berada di antara beberapa tiang penyangga. Di sekitar meja, terdapat beberapa orang yang bertempat duduk atau berdiri. Pada jarak jauh, kelihatan pepohonan hijau dan bangunan-bangunan tinggi. Suasana terasa tenang dan ramai dengan adanya orang-orang yang berada di area tersebut. Tidak ada bahaya yang kelihatan dalam gambar ini."
+      ]
+    }
+  ]
+}

@@ -16,15 +16,21 @@ os.makedirs(CAPTURE_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
-def run_ollama_with_image(image_path):
+def run_ollama_with_image(image_path, save_to_file=True):
     """
     Kirim gambar ke model Gemma3 (Ollama multimodal).
-    Hasil teks disimpan ke OUTPUT_DIR sebagai .txt.
-    Return: path file .txt atau None.
+    
+    Args:
+        image_path: Path ke file gambar
+        save_to_file: Jika True, simpan hasil ke file .txt di OUTPUT_DIR
+    
+    Return: 
+        - Jika save_to_file=True: (content, txt_path) atau (None, None)
+        - Jika save_to_file=False: (content, None) atau (None, None)
     """
     if not os.path.exists(image_path):
         print(f"[ERROR] File gambar tidak ada: {image_path}")
-        return None
+        return None, None
 
     # Encode ke base64 (format multimodal Ollama)
     try:
@@ -32,7 +38,7 @@ def run_ollama_with_image(image_path):
             img_b64 = base64.b64encode(f.read()).decode("utf-8")
     except Exception as e:
         print(f"[ERROR] Gagal membaca/encode gambar: {e}")
-        return None
+        return None, None
 
     payload = {
         "model": MODEL_NAME,
@@ -53,53 +59,55 @@ def run_ollama_with_image(image_path):
     except Exception as e:
         print(f"[ERROR] Gagal memanggil Ollama. "
               f"Pastikan `ollama serve` aktif dan model '{MODEL_NAME}' tersedia. Detail: {e}")
-        return None
+        return None, None
 
     try:
         data = resp.json()
     except Exception as e:
         print(f"[ERROR] Gagal parse JSON dari Ollama: {e}\nRespons mentah: {resp.text}")
-        return None
+        return None, None
 
     # Ambil konten jawaban dari field message.content
     content = data.get("message", {}).get("content", "")
     if not content:
         print(f"[ERROR] Konten kosong atau struktur respons tak terduga.\nRespons: {data}")
-        return None
+        return None, None
 
-    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_path = os.path.join(OUTPUT_DIR, f"output_{ts}.txt")
-    try:
-        with open(output_path, "w", encoding="utf-8") as f:
-            f.write(content)
-        print(f"[INFO] Hasil interpretasi disimpan: {output_path}")
-        return output_path
-    except Exception as e:
-        print(f"[ERROR] Gagal menulis file output: {e}")
-        return None
+    # Simpan ke file jika diminta
+    if save_to_file:
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        output_path = os.path.join(OUTPUT_DIR, f"output_{ts}.txt")
+        try:
+            with open(output_path, "w", encoding="utf-8") as f:
+                f.write(content)
+            print(f"[INFO] Hasil interpretasi disimpan: {output_path}")
+            return content, output_path
+        except Exception as e:
+            print(f"[ERROR] Gagal menulis file output: {e}")
+            return content, None
+    else:
+        print(f"[INFO] Teks berhasil dihasilkan (tidak disimpan ke file)")
+        return content, None
 
 
-def generate_text_from_image(image_path):
+def generate_text_from_image(image_path, save_to_file=True):
     """
     Fungsi utama yang akan dipanggil modul lain:
     1. Terima path gambar
     2. Kirim ke Ollama
-    3. Baca teks dari file .txt
+    3. Return teks (dan path file jika save_to_file=True)
+
+    Args:
+        image_path: Path ke gambar
+        save_to_file: Jika True, simpan ke file .txt
 
     Return: (text, txt_path) atau (None, None) jika gagal.
     """
-    txt_path = run_ollama_with_image(image_path)
-    if not txt_path:
-        return None, None
-
-    try:
-        with open(txt_path, "r", encoding="utf-8") as f:
-            text = f.read().strip()
-    except Exception as e:
-        print(f"[ERROR] Gagal membaca file teks: {e}")
-        return None, txt_path
-
-    print("[INFO] Teks hasil interpretasi berhasil dibaca.")
+    text, txt_path = run_ollama_with_image(image_path, save_to_file=save_to_file)
+    
+    if text:
+        print("[INFO] Teks hasil interpretasi berhasil dibaca.")
+    
     return text, txt_path
 
 

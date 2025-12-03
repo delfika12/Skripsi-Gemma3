@@ -1,0 +1,13 @@
+# Requirements untuk evaluasi SPICE dengan Stanza (Bahasa Indonesia)
+
+# Stanza untuk parsing bahasa Indonesia
+stanza>=1.5.0
+
+# NLTK untuk text processing tambahan
+nltk>=3.8
+
+# Numpy untuk komputasi
+numpy>=1.24.0
+
+# Pandas untuk analisis data (optional)
+pandas>=2.0.0
