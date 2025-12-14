@@ -4,7 +4,15 @@ import json
 import csv
 import time
 import glob
+import threading
 from pathlib import Path
+
+try:
+    from jtop import jtop
+    JTOP_AVAILABLE = True
+except ImportError:
+    JTOP_AVAILABLE = False
+    print("[WARNING] 'jtop' module not found. Resource monitoring will be disabled.")
 
 # Tambahkan parent directory ke sys.path agar bisa import modul dari root
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -18,9 +26,78 @@ IMAGES_DIR = os.path.join(TEST_DIR, "images-test")
 RESULT_AUDIO_DIR = os.path.join(TEST_DIR, "resultAudio")
 RESULT_TEXT_JSON = os.path.join(TEST_DIR, "resultText.json")
 RESULT_TIME_CSV = os.path.join(TEST_DIR, "resultTime.csv")
+RESULT_RESOURCE_CSV = os.path.join(TEST_DIR, "resultResource.csv")
 
 # Buat folder output jika belum ada
 os.makedirs(RESULT_AUDIO_DIR, exist_ok=True)
+
+
+class ResourceMonitor(threading.Thread):
+    def __init__(self, interval=0.5):
+        super().__init__()
+        self.interval = interval
+        self.running = False
+        self.stats_list = []
+
+    def run(self):
+        if not JTOP_AVAILABLE:
+            return
+        
+        self.running = True
+        try:
+            with jtop(interval=self.interval) as jetson:
+                while self.running and jetson.ok():
+                    try:
+                        # CPU Clock (Avg of all cores) - kHz
+                        cpu_freqs = [c['freq']['cur'] for c in jetson.cpu['cpu']]
+                        avg_cpu_freq = sum(cpu_freqs) / len(cpu_freqs) if cpu_freqs else 0
+                        
+                        # CPU Util (Avg of all cores) - %
+                        cpu_utils = [val for key, val in jetson.stats.items() if key.startswith('CPU') and key[3:].isdigit()]
+                        avg_cpu_util = sum(cpu_utils) / len(cpu_utils) if cpu_utils else 0
+                        
+                        # RAM (MB)
+                        ram_used = jetson.memory['RAM']['used'] / 1024
+                        
+                        # GPU Util - %
+                        gpu_util = jetson.stats.get('GPU', 0)
+                        
+                        # VRAM (Shared RAM in MB)
+                        vram_used = jetson.memory['RAM'].get('shared', 0) / 1024
+                        
+                        # Power (mW)
+                        power = jetson.stats.get('Power TOT', 0)
+                        
+                        self.stats_list.append({
+                            'cpu_clock': avg_cpu_freq,
+                            'cpu_util': avg_cpu_util,
+                            'ram_usage': ram_used,
+                            'gpu_util': gpu_util,
+                            'vram_gpu': vram_used,
+                            'power': power
+                        })
+                    except Exception:
+                        pass
+                    time.sleep(self.interval)
+        except Exception as e:
+            print(f"[ERROR] Monitor: {e}")
+
+    def stop(self):
+        self.running = False
+        self.join()
+
+    def get_averages(self):
+        if not self.stats_list:
+            return {
+                'cpu_clock': 0, 'cpu_util': 0, 'ram_usage': 0,
+                'gpu_util': 0, 'vram_gpu': 0, 'power': 0
+            }
+        
+        keys = self.stats_list[0].keys()
+        avgs = {}
+        for k in keys:
+            avgs[k] = sum(s[k] for s in self.stats_list) / len(self.stats_list)
+        return avgs
 
 
 def get_image_files(directory):
@@ -83,6 +160,7 @@ def main():
     # 3. Siapkan struktur data untuk hasil
     results_text = []
     results_time = []
+    results_resource = []
     
     # 4. Proses setiap gambar
     for idx, image_path in enumerate(image_files, 1):
@@ -92,6 +170,10 @@ def main():
         
         image_id = extract_image_id(image_path)
         image_basename = os.path.splitext(os.path.basename(image_path))[0]
+        
+        # Start Resource Monitor
+        monitor = ResourceMonitor(interval=0.2)
+        monitor.start()
         
         # === STEP 1: Generate Text dengan Ollama ===
         print(f"[STEP 1] Menghasilkan deskripsi dengan Ollama...")
@@ -155,13 +237,28 @@ def main():
         
         print(f"[INFO] Audio berhasil dibuat (waktu: {time_piper:.2f}s)")
         
-        # === STEP 3: Catat waktu inferensi ===
+        # Stop Monitor
+        monitor.stop()
+        res_avgs = monitor.get_averages()
+        
+        # === STEP 3: Catat waktu inferensi dan resource ===
         results_time.append({
             'image_id': image_id,
             'image_name': os.path.basename(image_path),
             'T_Ollama': round(time_ollama, 4),
             'T_Piper': round(time_piper, 4),
             'status': 'success'
+        })
+        
+        results_resource.append({
+            'image_id': image_id,
+            'image_name': os.path.basename(image_path),
+            'cpu_clock_khz': round(res_avgs['cpu_clock'], 2),
+            'cpu_util_pct': round(res_avgs['cpu_util'], 2),
+            'ram_usage_mb': round(res_avgs['ram_usage'], 2),
+            'gpu_util_pct': round(res_avgs['gpu_util'], 2),
+            'vram_gpu_mb': round(res_avgs['vram_gpu'], 2),
+            'power_mw': round(res_avgs['power'], 2)
         })
         
         print(f"[SUMMARY] Ollama: {time_ollama:.2f}s | Piper: {time_piper:.2f}s")
@@ -187,6 +284,17 @@ def main():
             print(f"[INFO] resultTime.csv diperbarui ({len(results_time)} entri)")
         except Exception as e:
             print(f"[ERROR] Gagal menyimpan CSV: {e}")
+        
+        # Simpan resultResource.csv
+        try:
+            with open(RESULT_RESOURCE_CSV, 'w', newline='', encoding='utf-8') as f:
+                fieldnames = ['image_id', 'image_name', 'cpu_clock_khz', 'cpu_util_pct', 'ram_usage_mb', 'gpu_util_pct', 'vram_gpu_mb', 'power_mw']
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+                writer.writerows(results_resource)
+            print(f"[INFO] resultResource.csv diperbarui ({len(results_resource)} entri)")
+        except Exception as e:
+            print(f"[ERROR] Gagal menyimpan Resource CSV: {e}")
 
     
     # 5. Simpan hasil ke file
@@ -212,6 +320,17 @@ def main():
         print(f"[INFO] Waktu inferensi disimpan ke: {RESULT_TIME_CSV}")
     except Exception as e:
         print(f"[ERROR] Gagal menyimpan CSV: {e}")
+
+    # Simpan resultResource.csv
+    try:
+        with open(RESULT_RESOURCE_CSV, 'w', newline='', encoding='utf-8') as f:
+            fieldnames = ['image_id', 'image_name', 'cpu_clock_khz', 'cpu_util_pct', 'ram_usage_mb', 'gpu_util_pct', 'vram_gpu_mb', 'power_mw']
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(results_resource)
+        print(f"[INFO] Resource usage disimpan ke: {RESULT_RESOURCE_CSV}")
+    except Exception as e:
+        print(f"[ERROR] Gagal menyimpan Resource CSV: {e}")
     
     # 6. Tampilkan ringkasan
     print(f"\n{'=' * 60}")

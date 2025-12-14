@@ -1,0 +1,304 @@
+{
+  "annotations": [
+    {
+      "image_id": 1,
+      "captions": [
+        "Terlihat seorang pria dengan celana jeans biru sedang memotret. Di depannya terdapat struktur baja berwarna biru dengan wadah sampah di bawahnya. Di belakangnya, terdapat trotoar berkerikil, beberapa sepeda motor, dan pepohonan besar. Suasana tampak cerah dengan sedikit hujan. Ada potensi bahaya dari kendaraan bermotor dan trotoar yang licin."
+      ]
+    },
+    {
+      "image_id": 2,
+      "captions": [
+        "Terlihat seorang anak laki-laki mengenakan jaket biru sedang berjalan menjauh dalam sebuah koridor. Koridor tersebut berwarna abu-abu muda dengan lantai berwarna senada. Terdapat poster berwarna biru dan putih di dinding samping koridor. Terdapat tanda \"EXIT\" berwarna merah di ujung koridor. Suasana koridor terlihat tenang dan sepi. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 3,
+      "captions": [
+        "Terlihat sebuah koridor panjang dengan dinding berwarna abu-abu muda. Di kedua sisi koridor terdapat dinding berwarna merah tua. Di ujung koridor, terdapat pintu kaca besar. Seorang pria berjalan menyusuri koridor. Terdapat lampu langit-langit yang menyala. Di dinding terdapat kotak listrik dan kamera CCTV. Lantai koridor berwarna putih mengkilap. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 4,
+      "captions": [
+        "Terlihat tiga pintu lift berwarna abu-abu gelap. Di lantai masing-masing pintu terdapat alas merah. Di sisi kiri, terdapat tempat sampah abu-abu. Suasana tampak tenang dan redup. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 5,
+      "captions": [
+        "Terlihat dua orang berdiri di dalam ruangan. Ruangan tersebut memiliki dinding berwarna abu-abu muda dan lantai berwarna abu-abu gelap. Ada dua pintu kaca dengan handle stainless steel. Di sebelah kiri, terdapat tempat sampah stainless steel. Di sebelah kanan, terdapat alat pemadam api ringan berwarna merah. Suasana ruangan tampak tenang dan sepi. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 6,
+      "captions": [
+        "Terlihat sebuah koridor dengan dinding berwarna abu-abu dan jendela kaca besar di sisi kanan. Ada sebuah kursi tunggu berwarna abu-abu di sisi kiri. Terlihat seorang pria berjalan menjauh ke arah kanan. Lantai berwarna abu-abu terang. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 7,
+      "captions": [
+        "Terlihat sebuah jalan setapak yang terbuat dari batu bata yang diatur dalam pola berbenang. Jalan setapak ini basah karena hujan. Di kedua sisi jalan terdapat pepohonan tinggi yang memberikan naungan. Di ujung jalan, terlihat bangunan berwarna abu-abu dengan atap berwarna merah. Suasana terasa sejuk dan lembap. Tidak ada tanda-tanda bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 8,
+      "captions": [
+        "Terlihat sebuah tempat sampah daur ulang berwarna merah dengan logo daur ulang. Di belakang tempat sampah terdapat taman dengan pepohonan hijau lebat dan tanaman berwarna merah. Di kejauhan, terlihat sebuah tangga dan seorang pria berdiri di samping pagar. Lantai di area ini berwarna terang dan bersih. Tidak ada bahaya yang terlihat secara langsung."
+      ]
+    },
+    {
+      "image_id": 9,
+      "captions": [
+        "Terlihat sebuah area terbuka yang dipenuhi dengan paving batu berwarna abu-abu yang basah karena hujan. Ada beberapa daun kering yang berserakan di lantai. Di tengah area terdapat sebuah kolam kecil dengan air yang mengalir. Di sekeliling kolam terdapat tanaman hijau dan bebatuan kecil. Di latar belakang, terlihat bangunan dengan jendela-jendela berwarna. Suasana tampak sepi dan lembap. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 10,
+      "captions": [
+        "Terlihat sebuah tangga eskalator berwarna putih panjang. Di sebelah tangga eskalator, terdapat dinding putih dengan jendela-jendela besar. Di sisi lain, ada teras terbuka dengan meja dan kursi berwarna putih. Teras tersebut berada di bawah naungan atap kain. Terdapat pepohonan di latar belakang. Suasana terasa tenang dan cerah. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 11,
+      "captions": [
+        "Terlihat sebuah area taman dengan paving batu yang basah karena hujan. Ada beberapa genangan air di atas paving batu. Terdapat tiga bangku beton yang mengelilingi area tersebut. Ada tiga cone kuning berdiri di sisi jalan. Di kejauhan, terlihat beberapa kendaraan parkir. Suasana sejuk dan basah karena hujan. Tidak ada bahaya yang terlihat secara langsung."
+      ]
+    },
+    {
+      "image_id": 12,
+      "captions": [
+        "Terlihat sebuah area terbuka panjang dengan lantai berkerikil putih. Terdapat beberapa meja panjang berwarna abu-abu dengan kursi hitam di sepanjang area tersebut. Di kedua sisi area, terdapat dinding hijau dengan tanaman hias. Di latar belakang, terlihat sebuah pohon besar. Ada seorang pria dengan kacamata sedang mengoperasikan laptop di salah satu meja. Suasana terasa tenang dan sejuk. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 13,
+      "captions": [
+        "Terlihat sebuah jalan setapak yang basah kuyup akibat hujan. Permukaan jalan berkerikil dan berlumpur, dengan genangan air yang cukup dalam di tengah jalan. Di kedua sisi jalan terdapat trotoar yang juga basah. Di kejauhan, terlihat bangunan bertingkat berwarna putih dengan atap hijau. Suasana tampak suram dan lembap. Ada potensi tergelincir karena permukaan jalan licin."
+      ]
+    },
+    {
+      "image_id": 14,
+      "captions": [
+        "Terlihat sebuah tangga dengan anak tangga berwarna hitam dan rel berwarna perak. Terdapat dinding berwarna abu-abu di sekeliling tangga. Suasana tampak tenang dan sunyi. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 15,
+      "captions": [
+        "Terlihat seorang pria sedang berjongkok sambil mengambil foto. Ada beberapa anak jalanan yang berdiri di dekatnya. Jalan setapak terbuat dari batu yang basah karena hujan. Terdapat tanaman hijau dan bebatuan di kedua sisi jalan. Di kejauhan, terlihat bangunan dengan fasad berwarna abu-abu dan jendela bergaya. Suasana lembap dan hujan. Tidak ada bahaya yang terlihat secara langsung, namun jalanan basah bisa menyebabkan terpeleset."
+      ]
+    },
+    {
+      "image_id": 16,
+      "captions": [
+        "Terlihat seorang pria muda berdiri di atas jembatan kayu berwarna hijau. Jembatan tersebut berada di atas trotoar yang terbuat dari bata berwarna abu-abu. Di kedua sisi jembatan terdapat semak-semak hijau. Di latar belakang, terdapat rumput hijau dan bangunan berwarna putih. Ada juga tangki pemadam kebakaran merah di sisi kiri. Suasana tampak cerah dan sejuk. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 17,
+      "captions": [
+        "Terlihat ada empat orang sedang bekerja di sebuah ruangan. Mereka duduk di depan meja dengan laptop dan dokumen. Ada poster dengan tulisan \"FILKOM UB - CAPSTONE EXPOSITION 2023\" di dinding. Suasana terlihat seperti ruang kerja atau ruang presentasi. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 18,
+      "captions": [
+        "Terlihat seorang pria duduk di depan meja. Ada sebuah printer 3D CREALITY putih di meja. Terdapat dua kursi biru di sekeliling meja. Ada beberapa kotak dan peralatan elektronik di meja. Suasana tampak seperti ruang kerja atau workshop. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 19,
+      "captions": [
+        "Terlihat sebuah dinding kamar mandi yang dilapisi ubin berwarna abu-abu. Terdapat wastafel berwarna hitam dengan tepi yang mengkilap. Di atas wastafel, terdapat botol sabun dan botol sampo berwarna hijau dan coklat. Terdapat juga keran air berwarna perak. Di dinding terdapat dua dispenser sabun otomatis berwarna putih. Kondisi lingkungan terlihat bersih dan kering. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 20,
+      "captions": [
+        "Terlihat seorang pria dengan kaos berwarna oranye dan celana khaki berjalan menjauh dari kamera. Di depannya, ada seorang pria lain dengan kaos hitam dan celana khaki berjalan mendekat. Lantai berwarna putih dengan garis hitam. Ada sebuah kursi roda di sisi kanan. Dinding berwarna abu-abu dengan panel kaca. Tampak ada lampu langit-langit. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 21,
+      "captions": [
+        "Terlihat seorang pria mengenakan kaos kuning dan jaket oranye berdiri di dekat pintu lift. Di sampingnya terdapat tempat sampah berwarna merah dengan alas karpet merah. Lift dengan nomor 4 terlihat di dinding berwarna hitam. Suasana tampak tenang dan sepi. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 22,
+      "captions": [
+        "Terlihat sebuah ruangan kelas yang dindingnya berwarna putih bersih. Ada sekitar tujuh orang siswa yang duduk di meja panjang. Mereka terlihat sedang berkumpul dan mungkin sedang mendiskusikan sesuatu. Ada laptop dan kamera di beberapa meja. Suasana terlihat santai dan fokus. Tidak ada bahaya yang terlihat dalam gambar."
+      ]
+    },
+    {
+      "image_id": 23,
+      "captions": [
+        "Terlihat sebuah lantai marmer berwarna putih dengan sedikit pantulan cahaya. Terdapat sebuah area tunggu dengan beberapa kursi metal berwarna abu-abu. Di salah satu sisi, ada partisi kayu berwarna kuning dengan motif kotak-kotak. Di belakang partisi, terdapat beberapa kaca yang membentuk ruang kerja. Di ujung ruangan, terlihat meja dan kursi. Suasana ruangan terasa tenang dan sepi. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 24,
+      "captions": [
+        "Terlihat sebuah kotak merah besar dengan tulisan \"HYDRANT\" di atasnya. Di samping kotak tersebut terdapat tanda peringatan \"HATI HATI LANTAI LICIN\" berwarna kuning. Di samping tanda peringatan terdapat tempat sampah berwarna hitam. Di kejauhan, terlihat pintu kaca dengan kaca film. Suasana tampak bersih dan minim orang. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 25,
+      "captions": [
+        "Terlihat sebuah meja depan berwarna putih dengan bentuk melengkung. Di belakang meja, terdapat seorang petugas yang sedang bekerja. Di belakang petugas, terdapat poster berwarna-warni. Lantai berwarna abu-abu dan terdapat refleksi cahaya dari lantai yang mengkilap. Suasana terlihat tenang dan formal. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 26,
+      "captions": [
+        "Terlihat sebuah lantai beton berwarna putih dengan tekstur yang sedikit kasar. Ada tangga dengan pagar besi di sisi kanannya. Di lantai, terdapat beberapa meja kayu berwarna coklat dengan kursi-kursi di sekitarnya. Beberapa orang duduk di meja tersebut, terlihat sedang menggunakan laptop. Di latar belakang, terlihat beberapa orang berjalan dan berbicara. Suasana tampak ramai namun tenang. Tidak ada bahaya yang terlihat dalam gambar."
+      ]
+    },
+    {
+      "image_id": 27,
+      "captions": [
+        "Terlihat dua orang berjalan menyusuri sebuah jalan setapak yang dilapisi ubin berwarna abu-abu. Jalan setapak ini berada di bawah naungan tiang-tiang berwarna hitam dan putih. Di kedua sisi jalan terdapat tanaman hijau yang rimbun. Di kejauhan, terlihat beberapa orang duduk di meja-meja di bawah naungan pohon. Permukaan jalan setapak rata dan tidak ada lubang atau benda asing yang terlihat. Suasana terasa tenang dan sejuk. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 28,
+      "captions": [
+        "Terlihat sebuah area terbuka dengan lantai berwarna abu-abu terang yang sedikit mengkilap. Terdapat tiga meja panjang berwarna hitam dengan bangku-bangku di sekitarnya. \n\nAda seorang wanita dan seorang pria yang sedang duduk di salah satu meja. Di dekat mereka terdapat sebuah mesin penjual minuman otomatis berwarna putih dengan rak berisi botol-botol minuman. \n\nDi sisi lain, ada seorang pria yang sedang membersihkan lantai dengan sapu dan ember. \n\nSuasana terlihat tenang dan sejuk. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 29,
+      "captions": [
+        "Terlihat sebuah dinding bata berwarna abu-abu muda dengan sebuah wastafel stainless steel di sisi kanannya. Di bawah wastafel terdapat lantai keramik berwarna abu-abu. Ada sebuah sapu dan ember biru di sisi kiri wastafel. Di belakang wastafel terdapat beberapa tanaman hias pot berwarna hijau. Di kejauhan, terlihat beberapa orang dan bangunan berwarna putih. Lantai di area ini basah karena hujan. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 30,
+      "captions": [
+        "Terlihat sebuah lantai ubin berwarna abu-abu yang basah. Ada sebuah rambu kuning dengan tulisan \"WET FLOOR\" yang menempel di dinding. Terdapat sebuah tangga dengan pagar pembatas dan beberapa tanaman hijau di sisi tangga. Ada seorang pria berjalan di tangga. Suasana sejuk dan lembap. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 31,
+      "captions": [
+        "Terlihat sebuah teras dengan dua bangku kayu berwarna coklat di sisi kiri dan kanan. Bangku-bangku tersebut berada di bawah naungan tiang-tiang hitam. Di belakang bangku, terdapat tanaman hijau yang rimbun. Suasana terasa sejuk dan teduh. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 32,
+      "captions": [
+        "Terlihat sebuah bangunan dengan atap putih dan dinding biru. Ada beberapa orang duduk di lantai. Terdapat pohon besar di belakang bangunan. Lantai terbuat dari kerikil berwarna abu-abu."
+      ]
+    },
+    {
+      "image_id": 33,
+      "captions": [
+        "Terlihat sebuah ruang terbuka yang luas dengan langit-langit tinggi. Ada sekitar tujuh orang yang duduk di atas karpet di area lantai. Mereka terlihat sedang menggunakan laptop. Di dinding terdapat beberapa poster berwarna dan sebuah rambu peringatan api berwarna merah. Lantai berwarna biru dengan pola garis-garis. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 34,
+      "captions": [
+        "Terlihat sebuah pintu masuk ke sebuah toko. Di depan pintu terdapat sebuah teralis dengan kisi-kisi hitam. Lantai terbuat dari keramik berwarna abu-abu. Ada sebuah karpet biru di lantai. Di samping pintu terdapat sebuah tempat sampah berwarna biru dengan logo \"Primo\". Di dekat tempat sampah terdapat beberapa kotak kardus. Di dalam toko terlihat rak-rak berisi barang dagangan. Suasana tampak tenang dan sejuk. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 35,
+      "captions": [
+        "Terlihat sebuah teras outdoor dengan lantai beton yang diisi kerikil putih kecil. Ada tiga orang wanita muda yang duduk di sekitar meja hitam. Di belakang mereka terdapat dinding vertikal yang diisi dengan tanaman hijau. Di atasnya terdapat lampu gantung hitam. Suasana terasa tenang dan sejuk. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 36,
+      "captions": [
+        "Terlihat sebuah jalan setapak yang terbuat dari batu bata yang sudah aus dan penuh lumut. Ada sebuah motor berwarna hijau tua terparkir di sisi jalan. Terdapat celah besar di tengah jalan, kemungkinan akibat retakan atau kerusakan. Suasana tampak lembap dan sedikit berantakan. Tidak ada bahaya yang terlihat secara langsung, namun kondisi jalan yang rusak berpotensi menyebabkan tersandung."
+      ]
+    },
+    {
+      "image_id": 37,
+      "captions": [
+        "Terlihat sebuah jalan setapak beraspal dengan beberapa lubang air besar. Di sisi jalan terdapat tumpukan batu bata yang berserakan. Beberapa mobil parkir di kedua sisi jalan. Di kejauhan, terdapat bangunan bertingkat dengan jendela berwarna putih. Suasana tampak cerah dengan pepohonan hijau di sekitarnya. Ada potensi bahaya karena lubang air di jalan."
+      ]
+    },
+    {
+      "image_id": 38,
+      "captions": [
+        "Terlihat sebuah area konstruksi dengan trotoar terbuat dari beton. Ada tumpukan batu bata yang baru saja dibuang. Sebuah gerobak roda berwarna abu-abu terlihat di dekat tumpukan batu bata. Di kejauhan, terdapat bangunan dengan jendela-jendela ber-AC. Beberapa mobil parkir di sekitar area tersebut. Kondisi lingkungan terlihat lembap dan ada genangan air di beberapa area. Tidak ada bahaya yang terlihat secara langsung, namun ada potensi tergelincir karena kondisi tanah yang lembap."
+      ]
+    },
+    {
+      "image_id": 39,
+      "captions": [
+        "Terlihat sebuah jalan setapak beraspal yang basah karena hujan. Ada seorang pengendara motor yang melaju ke arah kanan. Di depan, terdapat sebuah mobil minivan berwarna putih. Di sisi jalan, terdapat tiang biru tinggi dengan lampu di atasnya. Di latar belakang, terlihat bangunan tinggi berwarna abu-abu dan beberapa mobil parkir. Suasana tampak seperti area parkir di lingkungan perkantoran. Ada potensi bahaya karena jalan basah dan pengendara motor melaju dengan kecepatan."
+      ]
+    },
+    {
+      "image_id": 40,
+      "captions": [
+        "Terlihat sebuah jalanan dengan trotoar berkerikil. Ada seorang pengendara motor yang melaju di jalan. Di sisi jalan terdapat bangunan tinggi berwarna putih dengan tulisan. Beberapa kendaraan lain terlihat di kejauhan. Suasana tampak cerah dengan langit biru. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 41,
+      "captions": [
+        "Terlihat sebuah trotoar yang terbuat dari ubin berwarna abu-abu. Trotoar tersebut basah karena hujan. Di sisi trotoar terdapat tanaman hijau yang rimbun. Di kejauhan, terlihat jalanan dengan beberapa kendaraan dan bangunan. Suasana terlihat lembap dan hujan. Tidak ada bahaya yang terlihat secara langsung."
+      ]
+    },
+    {
+      "image_id": 42,
+      "captions": [
+        "Terlihat sebuah bangunan gedung bertingkat dengan fasad berwarna abu-abu gelap. Ada sebuah tangga beton yang mengarah ke pintu masuk gedung. Di sisi tangga terdapat sebuah ember berisi air dan kain lap. Ada seorang petugas berpakaian seragam berdiri di samping tangga. Di samping tangga terdapat beberapa pot tanaman hias. Suasana terlihat tenang dan rapi. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 43,
+      "captions": [
+        "Terlihat jalanan beraspal yang basah karena hujan. Terdapat beberapa mobil parkir di kedua sisi jalan. Ada sebuah cone oranye di tengah jalan. Terdapat beberapa orang berdiri di tepi jalan. Suasana sekitarnya adalah lingkungan perkotaan dengan pepohonan besar. Tidak ada bahaya yang terlihat secara langsung."
+      ]
+    },
+    {
+      "image_id": 44,
+      "captions": [
+        "Terlihat sebuah balkon dengan dinding berwarna krem. Ada sebuah bangku kayu berwarna coklat di sisi kiri. Di luar, terlihat beberapa pot tanaman gantung dengan tanaman hijau. Di luar balkon, terdapat bangunan-bangunan tinggi dengan atap berwarna merah. Suasana terlihat mendung dan hujan. Tidak ada bahaya yang terlihat secara langsung."
+      ]
+    },
+    {
+      "image_id": 45,
+      "captions": [
+        "Terlihat sebuah kolom beton berwarna abu-abu dengan lapisan kayu berwarna coklat muda di bagian atasnya. Di sebelah kolom terdapat kotak pemadam api berwarna merah. Di kejauhan, terlihat tangga berwarna abu-abu dengan anak tangga yang cukup besar. Lantai berwarna putih dengan garis hitam di bagian tepi. Di dinding sebelah, terdapat jendela dengan kisi-kisi. Suasana terasa tenang dan bersih. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 46,
+      "captions": [
+        "Terlihat seorang pria mengenakan jaket hitam berdiri di tangga. Di depannya terdapat tangga berwarna hitam dengan anak tangga yang terbuat dari beton. Di ujung tangga terdapat kaca berwarna abu-abu yang berfungsi sebagai pembatas ruangan. Di dalam ruangan tersebut terlihat beberapa orang duduk di kursi. Suasana terlihat tenang dan sepi. Tidak ada bahaya yang terlihat secara langsung."
+      ]
+    },
+    {
+      "image_id": 47,
+      "captions": [
+        "Terlihat sebuah trotoar berkerikil heksagonal yang basah karena hujan. Di sisi trotoar terdapat beberapa pot tanaman dengan dedaunan berwarna hijau dan kuning. Di latar belakang, terlihat pepohonan hijau dan bangunan berwarna. Suasana tampak lembap dan sejuk. Tidak ada orang yang terlihat. Tidak ada bahaya yang jelas terlihat."
+      ]
+    },
+    {
+      "image_id": 48,
+      "captions": [
+        "Terlihat sebuah pintu masuk ke dalam sebuah gedung. Di sebelah pintu terdapat sebuah lift dengan tampilan angka 2. Di depan lift terdapat sebuah tempat sampah berwarna perak. Di dinding sebelah terdapat denah lantai dengan beberapa ruangan yang ditandai dengan nomor. Di sudut ruangan terdapat sebuah tanaman hias. Lantai berwarna terang dan bersih. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 49,
+      "captions": [
+        "Terlihat sebuah lantai keramik berwarna abu-abu yang basah. Terdapat sebuah bak air berwarna abu-abu besar yang menonjol. Di samping bak air, terdapat rambu peringatan \"CAUTION WET FLOOR\" berwarna kuning. Di belakang bak air, terdapat tanaman hijau yang rimbun. Suasana terlihat seperti area terbuka dengan banyak tanaman. Tidak ada orang yang terlihat dalam gambar. Tidak ada bahaya yang terlihat."
+      ]
+    },
+    {
+      "image_id": 50,
+      "captions": [
+        "Terlihat sebuah area terbuka dengan lantai berwarna abu-abu terang. Terdapat beberapa meja panjang berwarna coklat dengan rangka besi hitam yang disusun berjajar. Beberapa orang duduk di meja tersebut. Ada seorang pria berdiri di dekat salah satu meja, mengenakan jaket dan membawa ransel. Suasana tampak tenang dan ramai dengan beberapa orang yang sedang duduk dan berbicara. Tidak ada bahaya yang terlihat."
+      ]
+    }
+  ]
+}

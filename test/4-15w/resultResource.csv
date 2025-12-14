@@ -1,0 +1,4 @@
+image_id,image_name,cpu_clock_khz,cpu_util_pct,ram_usage_mb,gpu_util_pct,vram_gpu_mb,power_mw
+1,Test (1).jpg,1412066.89,85.36,7050.69,10.74,2981.73,8157.41
+2,Test (2).jpg,1416612.64,86.53,7300.32,13.1,3072.31,8164.31
+3,Test (3).jpg,1449000.0,87.36,7306.59,11.76,3063.46,8199.44

@@ -1,0 +1,4 @@
+image_id,image_name,T_Ollama,T_Piper,status
+1,Test (1).jpg,139.2464,9.8945,success
+2,Test (2).jpg,125.3006,9.6239,success
+3,Test (3).jpg,147.4594,12.7963,success

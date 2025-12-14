@@ -45,11 +45,15 @@ def run_ollama_with_image(image_path, save_to_file=True):
         "messages": [
             {
                 "role": "user",
-                "content": "Apa yang kamu lihat dari gambar ini? Jelaskan singkat dalam bahasa Indonesia.",
+                "content": "Deskripsikan gambar ini. Jangan gunakan kalimat pembuka 'Gambar ini adalah'. Mulailah jawabanmu langsung dengan kata 'Di depan sini terlihat/terdapat/ada sebuah/ ada seorang'.",
                 "images": [img_b64],
             }
         ],
-        "stream": False  # supaya respons langsung sekali, bukan streaming
+        "stream": False,  # supaya respons langsung sekali, bukan streaming
+        "options": {
+            "temperature": 0.2,
+            "num_predict": 150,
+        }
     }
 
     print(f"[STEP] Mengirim gambar {os.path.basename(image_path)} ke Ollama (Gemma3)...")
