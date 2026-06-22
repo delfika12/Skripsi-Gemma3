@@ -14,10 +14,7 @@ os.makedirs(AUDIO_FOLDER, exist_ok=True)
 
 
 def get_latest_txt(folder=OUTPUT_FOLDER):
-    """
-    Cari file .txt terbaru di folder yang diberikan.
-    Return: path file .txt atau None.
-    """
+    
     files = glob.glob(os.path.join(folder, "*.txt"))
     if not files:
         return None
@@ -25,10 +22,7 @@ def get_latest_txt(folder=OUTPUT_FOLDER):
 
 
 def load_voice(model_path=MODEL_PATH):
-    """
-    Load model Piper dan return objek PiperVoice.
-    Dipanggil sekali, lalu di-share ke pemanggil lain.
-    """
+    
     print("[INFO] Memuat model Piper...")
     voice = PiperVoice.load(model_path)
     print("[INFO] Model Piper siap.")
@@ -36,10 +30,7 @@ def load_voice(model_path=MODEL_PATH):
 
 
 def tts_from_text(text, voice=None, audio_folder=AUDIO_FOLDER):
-    """
-    Ubah teks (string) menjadi audio WAV.
-    Return: path file .wav atau None.
-    """
+    
     if not text or not text.strip():
         print("[ERROR] Teks kosong, batal TTS.")
         return None
@@ -63,11 +54,7 @@ def tts_from_text(text, voice=None, audio_folder=AUDIO_FOLDER):
 
 
 def tts_from_latest_txt(voice=None, output_folder=OUTPUT_FOLDER):
-    """
-    Versi lama: ambil file .txt terbaru di output_folder,
-    lalu dikonversi ke .wav.
-    Return: path file .wav atau None.
-    """
+    
     latest_file = get_latest_txt(output_folder)
     if latest_file is None:
         print("[ERROR] Tidak ada file .txt di folder outputs/")
@@ -87,12 +74,7 @@ def tts_from_latest_txt(voice=None, output_folder=OUTPUT_FOLDER):
 
 
 def main():
-    """
-    Mode debug mandiri:
-    - Load Piper
-    - Ambil .txt terbaru dari outputs/
-    - Konversi ke .wav
-    """
+    
     voice = load_voice()
     wav_path = tts_from_latest_txt(voice=voice)
     if wav_path:
