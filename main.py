@@ -6,9 +6,8 @@ from generateText import generate_text_from_image
 from generateTTS import load_voice, tts_from_text
 from playAudio import play_wav
 
-# === KONFIGURASI TOMBOL ===
 BUTTON_PIN = 37        # pin fisik 37 (BOARD mode)
-DEBOUNCE_SEC = 0.15    # 150 ms
+DEBOUNCE_SEC = 0.15    # delay debounce
 
 
 # === STATE GLOBAL ===
@@ -19,13 +18,7 @@ voice = None  # cache model Piper supaya tidak load berulang kali
 
 
 def run_full_pipeline():
-    """
-    Satu rangkaian penuh:
-    1. Capture gambar
-    2. Gemma3 → teks
-    3. Piper TTS → wav
-    4. Play ke speaker
-    """
+    
     global voice
 
     print("\n================= PIPELINE DIMULAI =================")
@@ -62,10 +55,7 @@ def run_full_pipeline():
 
 
 def on_button_pressed():
-    """
-    Dipanggil dari callback setelah debounce.
-    Hanya meng-set flag untuk dieksekusi di main loop.
-    """
+   
     global trigger_requested, is_processing
 
     if is_processing:
@@ -78,10 +68,7 @@ def on_button_pressed():
 
 
 def button_callback(channel):
-    """
-    Callback level bawah (dipanggil langsung oleh Jetson.GPIO),
-    meng-handle debounce berdasarkan waktu.
-    """
+    
     global last_press_time
     now = time.time()
 
