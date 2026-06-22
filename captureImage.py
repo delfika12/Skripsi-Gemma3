@@ -7,10 +7,7 @@ CAPTURE_DIR = os.path.join(os.getcwd(), "captures")
 os.makedirs(CAPTURE_DIR, exist_ok=True)
 
 def capture_image():
-    """
-    Ambil satu frame dari kamera index 0 dan simpan ke CAPTURE_DIR.
-    Return: path gambar atau None jika gagal.
-    """
+    
     print("[STEP] Menangkap gambar dari kamera (index 0)...")
     cap = cv2.VideoCapture(0)
 
